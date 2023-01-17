@@ -31,17 +31,18 @@ public class PeriodicTable {
      */
     public static void initAtomicMap() {
         {//构建Atomic
-            YamlFile yamlFile = new YamlTools("C:\\Users\\Administrator\\Desktop\\PeriodicTable\\原子数据.yml").getYamlFile();
+            YamlFile yamlFile = new YamlTools("C:\\Users\\Administrator\\Desktop\\PeriodicTable\\本地原子数据.yaml").getYamlFile();
             List<Map<?, ?>> main = yamlFile.getMapList("main");
             for (Map<?, ?> map : main) {
                 try {
-                    int atomicID = Integer.parseInt(map.get("atomic").toString());
+                    int atomicID = (int) map.get("number");
                     String symbol = map.get("symbol").toString();
-                    String weight = map.get("weight") == null ? "N/A" : map.get("weight").toString();
+                    String name = map.get("name").toString();
+                    String weight = map.get("atomic_mass") == null ? "N/A" : map.get("atomic_mass").toString();
                     String melt = map.get("melt") == null ? "N/A" : map.get("melt").toString();
                     String boil = map.get("boil") == null ? "N/A" : map.get("boil").toString();
-                    int discover = Integer.parseInt(map.get("discover").toString());
-                    Atomic atomic = new Atomic(null, atomicID, symbol, weight, melt, boil, discover);
+                    String phase = map.get("phase") == null ? "N/A" : map.get("phase").toString();
+                    Atomic atomic = new Atomic(name, atomicID, symbol, weight, melt, boil, phase);
                     atomicHashMap_symbol.put(symbol, atomic);
                     atomicHashMap_atomicID.put(atomicID, atomic);
                     atomicList.add(atomic);
@@ -52,14 +53,5 @@ public class PeriodicTable {
             }
         }
         logger.debug(atomicHashMap_atomicID);
-        {//补充添加Atomic的name
-            YamlFile yamlFile = new YamlTools("C:\\Users\\Administrator\\Desktop\\PeriodicTable\\元素英文全名.yml").getYamlFile();
-            ConfigurationSection configurationSection = yamlFile.getConfigurationSection("main");
-            for (int i = 1; i <= 118; i++) {
-                Atomic atomic = atomicHashMap_atomicID.get(i);
-                atomic.setName(configurationSection.getString("Atomic"+i));
-            }
-
-        }
     }
 }

@@ -14,7 +14,7 @@ public class Atomic {
     private String weight;//相对原子质量
     private String melt;//熔点 K
     private String boil;//沸点 K
-    private int discover;//发现年份
+    private String phase;//常温的物态
     public static final Logger logger = Logger.getLogger(Atomic.class);
 
     public String getName() {
@@ -65,22 +65,22 @@ public class Atomic {
         this.boil = boil;
     }
 
-    public int getDiscover() {
-        return discover;
+    public String getPhase() {
+        return phase;
     }
 
-    public void setDiscover(int discover) {
-        this.discover = discover;
+    public void setPhase(String phase) {
+        this.phase = phase;
     }
 
-    public Atomic(String name, int atomicNumber, String symbol, String weight, String melt, String boil, int discover) {
+    public Atomic(String name, int atomicNumber, String symbol, String weight, String melt, String boil, String phase) {
         this.name = name;
         this.atomicNumber = atomicNumber;
         this.symbol = symbol;
         this.weight = weight;
         this.melt = melt;
         this.boil = boil;
-        this.discover = discover;
+        this.phase = phase;
     }
 
     @Override
@@ -89,10 +89,10 @@ public class Atomic {
                 "name='" + name + '\'' +
                 ", atomicNumber=" + atomicNumber +
                 ", symbol='" + symbol + '\'' +
-                ", weight=" + weight +
-                ", melt=" + melt +
-                ", boil=" + boil +
-                ", discover=" + discover +
+                ", weight='" + weight + '\'' +
+                ", melt='" + melt + '\'' +
+                ", boil='" + boil + '\'' +
+                ", phase='" + phase + '\'' +
                 '}';
     }
 
@@ -105,7 +105,7 @@ public class Atomic {
                         \t相对原子质量= %s
                         \t熔点= %s K
                         \t沸点= %s K
-                        \t发现年份= %d""",
-                atomic.name, atomic.atomicNumber, atomic.symbol, atomic.weight, atomic.melt, atomic.boil, atomic.discover));
+                        \t物态= %s""",
+                atomic.name, atomic.atomicNumber, atomic.symbol, atomic.weight, atomic.melt, atomic.boil,atomic.phase));
     }
 }

@@ -35,7 +35,11 @@ public class URLTool {
      */
     public static void requestToGetYAML(URL url) throws IOException {
 
-        InputStream inputStream = url.openStream();//开启流
+//        InputStream inputStream = url.openStream();//开启流
+        InputStream inputStream =
+                new FileInputStream(
+                        "C:\\Users\\Administrator\\Desktop\\tempGit\\PeriodicTable\\src\\main\\resources\\ir\\shahriari\\periodictable\\periodic-table.json");
+
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));//缓冲读取
         BufferedWriter bufferedWriter =
                 new BufferedWriter(
@@ -52,13 +56,14 @@ public class URLTool {
             throw new IOException("未知的Stream错误");
         }
 
-//        String convert = jsonConvertToYaml(stringBuilder.toString());
-//        logger.debug("jsonConvertToYaml() = " + convert);
-        String convert = stringBuilder.toString();
+        String convert = jsonConvertToYaml(stringBuilder.toString());
         logger.debug("jsonConvertToYaml() = " + convert);
+//        String convert = stringBuilder.toString();
+//        logger.debug("jsonConvertToYaml() = " + convert);
         //写入文件
         bufferedWriter.write(convert);
         bufferedWriter.flush();
+
 
 
     }
