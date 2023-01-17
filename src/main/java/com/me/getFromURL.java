@@ -12,14 +12,14 @@ import java.net.URL;
 /**
  * @author 秃头老狗
  * @version 1.0
- * <a href="https://ptable.com/JSON/compounds/formula=He">...</a>
+ * <a href="https://ptable.com/JSON/compounds/formula=Li">...</a>
  * <a href="https://ptable.com/JSON/properties-90d5338.json">...</a>
  */
 public class getFromURL {
     public static final Logger logger = Logger.getLogger(getFromURL.class);
     public static void main(String[] args) {
         try {
-            requestToGetYAML(new URL("https://ptable.com/JSON/compounds/formula=Li"));
+            requestToGetYAML(new URL("https://ptable.com/JSON/properties-90d5338.json"));
         } catch (IOException e) {
             logger.error("获取服务器资源错误(请检查网络连接)");
         }
@@ -37,7 +37,7 @@ public class getFromURL {
                 new BufferedWriter(
                         new OutputStreamWriter(
                                 new FileOutputStream(
-                                        "C:\\Users\\Administrator\\Desktop\\test.yaml")));//文件写入
+                                        PeriodicTable.softwareAddress+"\\test.yaml")));//文件写入
         StringBuilder stringBuilder = new StringBuilder();
         String line;
         while ((line = bufferedReader.readLine()) != null) {//读取流
@@ -47,11 +47,12 @@ public class getFromURL {
         if (stringBuilder.toString().isEmpty()){
             throw new IOException("未知的Stream错误");
         }
+        String convert = jsonConvertToYaml(stringBuilder.toString());
+        logger.debug("jsonConvertToYaml() = " + convert);
         //写入文件
-        bufferedWriter.write(stringBuilder.toString());
+        bufferedWriter.write(convert);
         bufferedWriter.flush();
 
-        logger.debug("jsonConvertToYaml() = " + jsonConvertToYaml(stringBuilder.toString()));
 
     }
 
@@ -60,6 +61,6 @@ public class getFromURL {
      */
     public static String jsonConvertToYaml(String jsonString) throws JsonProcessingException {
         JsonNode jsonNode = new ObjectMapper().readTree(jsonString);
-        return new YAMLMapper().writeValueAsString(jsonNode);
+        return (new YAMLMapper().writeValueAsString(jsonNode)).replace("---","main:");
     }
 }
