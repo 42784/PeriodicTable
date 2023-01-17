@@ -1,9 +1,6 @@
 package com.me.tools;
 
 
-import com.me.PeriodicTable;
-import org.apache.log4j.Logger;
-import org.simpleyaml.configuration.ConfigurationSection;
 import org.simpleyaml.configuration.file.YamlFile;
 
 import java.io.IOException;
@@ -29,7 +26,4 @@ public class YamlTools {
         return yamlFile;
     }
 
-    public void setYamlFile(YamlFile yamlFile) {
-        yamlFile = yamlFile;
-    }
 }
