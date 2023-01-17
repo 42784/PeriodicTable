@@ -1,6 +1,8 @@
 package com.me.tools;
 
 
+import com.me.PeriodicTable;
+import org.apache.log4j.Logger;
 import org.simpleyaml.configuration.ConfigurationSection;
 import org.simpleyaml.configuration.file.YamlFile;
 

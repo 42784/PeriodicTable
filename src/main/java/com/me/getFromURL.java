@@ -4,9 +4,9 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.yaml.YAMLMapper;
+import org.apache.log4j.Logger;
 
 import java.io.*;
-import java.net.MalformedURLException;
 import java.net.URL;
 
 /**
@@ -16,11 +16,12 @@ import java.net.URL;
  * <a href="https://ptable.com/JSON/properties-90d5338.json">...</a>
  */
 public class getFromURL {
+    public static final Logger logger = Logger.getLogger(getFromURL.class);
     public static void main(String[] args) {
         try {
             requestToGetYAML(new URL("https://ptable.com/JSON/compounds/formula=Li"));
         } catch (IOException e) {
-            System.err.println("获取服务器资源错误(请检查网络连接)");
+            logger.error("获取服务器资源错误(请检查网络连接)");
         }
 
 
@@ -50,7 +51,7 @@ public class getFromURL {
         bufferedWriter.write(stringBuilder.toString());
         bufferedWriter.flush();
 
-        System.out.println("jsonConvertToYaml() = " + jsonConvertToYaml(stringBuilder.toString()));
+        logger.debug("jsonConvertToYaml() = " + jsonConvertToYaml(stringBuilder.toString()));
 
     }
 

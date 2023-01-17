@@ -1,6 +1,7 @@
 package com.me;
 
 import com.me.tools.YamlTools;
+import org.apache.log4j.Logger;
 import org.simpleyaml.configuration.file.YamlFile;
 
 import java.util.List;
@@ -12,6 +13,7 @@ import java.util.Set;
  * @version 1.0
  */
 public class PeriodicTable {
+    public static final Logger logger = Logger.getLogger(PeriodicTable.class);
     public static void main(String[] args) {
         YamlTools.initYAML();
         YamlFile yamlFile = YamlTools.getYamlFile();
@@ -25,10 +27,11 @@ public class PeriodicTable {
                 System.out.printf("%s: %s\n",key,value);
 
             }
-            System.out.println("==============================================================================");
+            logger.info("==============================================================================");
         }
 
 
-        System.out.println("Hello World");
+        logger.info("Hello World");
+
     }
 }
