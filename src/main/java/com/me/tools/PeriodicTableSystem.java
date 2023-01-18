@@ -4,6 +4,7 @@ import com.me.Atomic;
 import com.me.PeriodicTable;
 import org.apache.log4j.Logger;
 
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -12,6 +13,16 @@ import java.util.List;
  */
 public class PeriodicTableSystem {
     public static final Logger logger = Logger.getLogger(PeriodicTableSystem.class);
+    private static final String PeriodicTableFormat = """
+            *                              *
+            **                        ******
+            **                        ******
+            **              ****************
+            **              ****************
+            ********************************
+            ********************************
+            """;
+
     public static void joinSystem() {
         System.out.println();
         logger.info("===============================元素周期表系统===============================");
@@ -19,12 +30,14 @@ public class PeriodicTableSystem {
         logger.info("1.通过原子序数查询原子信息");
         logger.info("2.通过元素符号查询");
         logger.info("3.打印所有原子的信息");
+        logger.info("4.打印元素周期表");
         Integer nextInt = Utilitys.userNextInt("你的选择");
         switch (nextInt) {
             case 0 -> System.exit(0);
             case 1 -> queryAtomicByID();
             case 2 -> queryAtomicBySymbol();
             case 3 -> printAllAtomic();
+            case 4 -> printPeriodicTable();
 
         }
         joinSystem();
@@ -49,13 +62,34 @@ public class PeriodicTableSystem {
             logger.warn("未知的原子符号");
         }
     }
-    public static void printAllAtomic(){
+
+    public static void printAllAtomic() {
         List<Atomic> atomicList = PeriodicTable.atomicList;
         for (Atomic atomic : atomicList) {
             logger.info(atomic);
             Atomic.printAtomicAttribute(atomic);
             System.out.println();
         }
+    }
 
+    public static void printPeriodicTable() {
+        int AtomicId = 1;
+        char[] chars = PeriodicTableFormat.toCharArray();
+        StringBuilder stringBuilder = new StringBuilder("元素周期表:\n");
+        for (char aChar : chars) {
+            switch (aChar){
+                case '*'->{
+                    Atomic atomic = PeriodicTable.atomicHashMap_atomicID.get(AtomicId++);
+                    stringBuilder.append(String.format("%-2s\t",atomic.getSymbol()));
+                }
+                case ' '->{
+                    stringBuilder.append("\t");
+                }
+                case '\n'->{
+                    stringBuilder.append('\n');
+                }
+            }
+        }
+        logger.info(stringBuilder.toString());
     }
 }
