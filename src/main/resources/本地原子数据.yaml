@@ -1,0 +1,827 @@
+main:
+  - name: Hydrogen
+    atomicNumber: 1
+    symbol: H
+    weight: "1.008"
+    melt: "13.99"
+    boil: "20.271"
+    phase: Gas
+  - name: Helium
+    atomicNumber: 2
+    symbol: He
+    weight: "4.0026022"
+    melt: "0.95"
+    boil: "4.222"
+    phase: Gas
+  - name: Lithium
+    atomicNumber: 3
+    symbol: Li
+    weight: "6.94"
+    melt: "453.65"
+    boil: 1603
+    phase: Solid
+  - name: Beryllium
+    atomicNumber: 4
+    symbol: Be
+    weight: "9.01218315"
+    melt: 1560
+    boil: 2742
+    phase: Solid
+  - name: Boron
+    atomicNumber: 5
+    symbol: B
+    weight: "10.81"
+    melt: 2349
+    boil: 4200
+    phase: Solid
+  - name: Carbon
+    atomicNumber: 6
+    symbol: C
+    weight: "12.011"
+    melt: "N/A"
+    boil: "N/A"
+    phase: Solid
+  - name: Nitrogen
+    atomicNumber: 7
+    symbol: N
+    weight: "14.007"
+    melt: "63.15"
+    boil: "77.355"
+    phase: Gas
+  - name: Oxygen
+    atomicNumber: 8
+    symbol: O
+    weight: "15.999"
+    melt: "54.36"
+    boil: "90.188"
+    phase: Gas
+  - name: Fluorine
+    atomicNumber: 9
+    symbol: F
+    weight: "18.9984031636"
+    melt: "53.48"
+    boil: "85.03"
+    phase: Gas
+  - name: Neon
+    atomicNumber: 10
+    symbol: Ne
+    weight: "20.17976"
+    melt: "24.56"
+    boil: "27.104"
+    phase: Gas
+  - name: Sodium
+    atomicNumber: 11
+    symbol: Na
+    weight: "22.989769282"
+    melt: "370.944"
+    boil: "1156.09"
+    phase: Solid
+  - name: Magnesium
+    atomicNumber: 12
+    symbol: Mg
+    weight: "24.305"
+    melt: 923
+    boil: 1363
+    phase: Solid
+  - name: Aluminium
+    atomicNumber: 13
+    symbol: Al
+    weight: "26.98153857"
+    melt: "933.47"
+    boil: 2743
+    phase: Solid
+  - name: Silicon
+    atomicNumber: 14
+    symbol: Si
+    weight: "28.085"
+    melt: 1687
+    boil: 3538
+    phase: Solid
+  - name: Phosphorus
+    atomicNumber: 15
+    symbol: P
+    weight: "30.9737619985"
+    melt: "N/A"
+    boil: "N/A"
+    phase: Solid
+  - name: Sulfur
+    atomicNumber: 16
+    symbol: S
+    weight: "32.06"
+    melt: "388.36"
+    boil: "717.8"
+    phase: Solid
+  - name: Chlorine
+    atomicNumber: 17
+    symbol: Cl
+    weight: "35.45"
+    melt: "171.6"
+    boil: "239.11"
+    phase: Gas
+  - name: Argon
+    atomicNumber: 18
+    symbol: Ar
+    weight: "39.9481"
+    melt: "83.81"
+    boil: "87.302"
+    phase: Gas
+  - name: Potassium
+    atomicNumber: 19
+    symbol: K
+    weight: "39.09831"
+    melt: "336.7"
+    boil: 1032
+    phase: Solid
+  - name: Calcium
+    atomicNumber: 20
+    symbol: Ca
+    weight: "40.0784"
+    melt: 1115
+    boil: 1757
+    phase: Solid
+  - name: Scandium
+    atomicNumber: 21
+    symbol: Sc
+    weight: "44.9559085"
+    melt: 1814
+    boil: 3109
+    phase: Solid
+  - name: Titanium
+    atomicNumber: 22
+    symbol: Ti
+    weight: "47.8671"
+    melt: 1941
+    boil: 3560
+    phase: Solid
+  - name: Vanadium
+    atomicNumber: 23
+    symbol: V
+    weight: "50.94151"
+    melt: 2183
+    boil: 3680
+    phase: Solid
+  - name: Chromium
+    atomicNumber: 24
+    symbol: Cr
+    weight: "51.99616"
+    melt: 2180
+    boil: 2944
+    phase: Solid
+  - name: Manganese
+    atomicNumber: 25
+    symbol: Mn
+    weight: "54.9380443"
+    melt: 1519
+    boil: 2334
+    phase: Solid
+  - name: Iron
+    atomicNumber: 26
+    symbol: Fe
+    weight: "55.8452"
+    melt: 1811
+    boil: 3134
+    phase: Solid
+  - name: Cobalt
+    atomicNumber: 27
+    symbol: Co
+    weight: "58.9331944"
+    melt: 1768
+    boil: 3200
+    phase: Solid
+  - name: Nickel
+    atomicNumber: 28
+    symbol: Ni
+    weight: "58.69344"
+    melt: 1728
+    boil: 3003
+    phase: Solid
+  - name: Copper
+    atomicNumber: 29
+    symbol: Cu
+    weight: "63.5463"
+    melt: "1357.77"
+    boil: 2835
+    phase: Solid
+  - name: Zinc
+    atomicNumber: 30
+    symbol: Zn
+    weight: "65.382"
+    melt: "692.68"
+    boil: 1180
+    phase: Solid
+  - name: Gallium
+    atomicNumber: 31
+    symbol: Ga
+    weight: "69.7231"
+    melt: "302.9146"
+    boil: 2673
+    phase: Solid
+  - name: Germanium
+    atomicNumber: 32
+    symbol: Ge
+    weight: "72.6308"
+    melt: "1211.4"
+    boil: 3106
+    phase: Solid
+  - name: Arsenic
+    atomicNumber: 33
+    symbol: As
+    weight: "74.9215956"
+    melt: "N/A"
+    boil: "N/A"
+    phase: Solid
+  - name: Selenium
+    atomicNumber: 34
+    symbol: Se
+    weight: "78.9718"
+    melt: 494
+    boil: 958
+    phase: Solid
+  - name: Bromine
+    atomicNumber: 35
+    symbol: Br
+    weight: "79.904"
+    melt: "265.8"
+    boil: 332
+    phase: Liquid
+  - name: Krypton
+    atomicNumber: 36
+    symbol: Kr
+    weight: "83.7982"
+    melt: "115.78"
+    boil: "119.93"
+    phase: Gas
+  - name: Rubidium
+    atomicNumber: 37
+    symbol: Rb
+    weight: "85.46783"
+    melt: "312.45"
+    boil: 961
+    phase: Solid
+  - name: Strontium
+    atomicNumber: 38
+    symbol: Sr
+    weight: "87.621"
+    melt: 1050
+    boil: 1650
+    phase: Solid
+  - name: Yttrium
+    atomicNumber: 39
+    symbol: Y
+    weight: "88.905842"
+    melt: 1799
+    boil: 3203
+    phase: Solid
+  - name: Zirconium
+    atomicNumber: 40
+    symbol: Zr
+    weight: "91.2242"
+    melt: 2128
+    boil: 4650
+    phase: Solid
+  - name: Niobium
+    atomicNumber: 41
+    symbol: Nb
+    weight: "92.906372"
+    melt: 2750
+    boil: 5017
+    phase: Solid
+  - name: Molybdenum
+    atomicNumber: 42
+    symbol: Mo
+    weight: "95.951"
+    melt: 2896
+    boil: 4912
+    phase: Solid
+  - name: Technetium
+    atomicNumber: 43
+    symbol: Tc
+    weight: 98
+    melt: 2430
+    boil: 4538
+    phase: Solid
+  - name: Ruthenium
+    atomicNumber: 44
+    symbol: Ru
+    weight: "101.072"
+    melt: 2607
+    boil: 4423
+    phase: Solid
+  - name: Rhodium
+    atomicNumber: 45
+    symbol: Rh
+    weight: "102.905502"
+    melt: 2237
+    boil: 3968
+    phase: Solid
+  - name: Palladium
+    atomicNumber: 46
+    symbol: Pd
+    weight: "106.421"
+    melt: "1828.05"
+    boil: 3236
+    phase: Solid
+  - name: Silver
+    atomicNumber: 47
+    symbol: Ag
+    weight: "107.86822"
+    melt: "1234.93"
+    boil: 2435
+    phase: Solid
+  - name: Cadmium
+    atomicNumber: 48
+    symbol: Cd
+    weight: "112.4144"
+    melt: "594.22"
+    boil: 1040
+    phase: Solid
+  - name: Indium
+    atomicNumber: 49
+    symbol: In
+    weight: "114.8181"
+    melt: "429.7485"
+    boil: 2345
+    phase: Solid
+  - name: Tin
+    atomicNumber: 50
+    symbol: Sn
+    weight: "118.7107"
+    melt: "505.08"
+    boil: 2875
+    phase: Solid
+  - name: Antimony
+    atomicNumber: 51
+    symbol: Sb
+    weight: "121.7601"
+    melt: "903.78"
+    boil: 1908
+    phase: Solid
+  - name: Tellurium
+    atomicNumber: 52
+    symbol: Te
+    weight: "127.603"
+    melt: "722.66"
+    boil: 1261
+    phase: Solid
+  - name: Iodine
+    atomicNumber: 53
+    symbol: I
+    weight: "126.904473"
+    melt: "386.85"
+    boil: "457.4"
+    phase: Solid
+  - name: Xenon
+    atomicNumber: 54
+    symbol: Xe
+    weight: "131.2936"
+    melt: "161.4"
+    boil: "165.051"
+    phase: Gas
+  - name: Cesium
+    atomicNumber: 55
+    symbol: Cs
+    weight: "132.905451966"
+    melt: "301.7"
+    boil: 944
+    phase: Solid
+  - name: Barium
+    atomicNumber: 56
+    symbol: Ba
+    weight: "137.3277"
+    melt: 1000
+    boil: 2118
+    phase: Solid
+  - name: Lanthanum
+    atomicNumber: 57
+    symbol: La
+    weight: "138.905477"
+    melt: 1193
+    boil: 3737
+    phase: Solid
+  - name: Cerium
+    atomicNumber: 58
+    symbol: Ce
+    weight: "140.1161"
+    melt: 1068
+    boil: 3716
+    phase: Solid
+  - name: Praseodymium
+    atomicNumber: 59
+    symbol: Pr
+    weight: "140.907662"
+    melt: 1208
+    boil: 3403
+    phase: Solid
+  - name: Neodymium
+    atomicNumber: 60
+    symbol: Nd
+    weight: "144.2423"
+    melt: 1297
+    boil: 3347
+    phase: Solid
+  - name: Promethium
+    atomicNumber: 61
+    symbol: Pm
+    weight: 145
+    melt: 1315
+    boil: 3273
+    phase: Solid
+  - name: Samarium
+    atomicNumber: 62
+    symbol: Sm
+    weight: "150.362"
+    melt: 1345
+    boil: 2173
+    phase: Solid
+  - name: Europium
+    atomicNumber: 63
+    symbol: Eu
+    weight: "151.9641"
+    melt: 1099
+    boil: 1802
+    phase: Solid
+  - name: Gadolinium
+    atomicNumber: 64
+    symbol: Gd
+    weight: "157.253"
+    melt: 1585
+    boil: 3273
+    phase: Solid
+  - name: Terbium
+    atomicNumber: 65
+    symbol: Tb
+    weight: "158.925352"
+    melt: 1629
+    boil: 3396
+    phase: Solid
+  - name: Dysprosium
+    atomicNumber: 66
+    symbol: Dy
+    weight: "162.5001"
+    melt: 1680
+    boil: 2840
+    phase: Solid
+  - name: Holmium
+    atomicNumber: 67
+    symbol: Ho
+    weight: "164.930332"
+    melt: 1734
+    boil: 2873
+    phase: Solid
+  - name: Erbium
+    atomicNumber: 68
+    symbol: Er
+    weight: "167.2593"
+    melt: 1802
+    boil: 3141
+    phase: Solid
+  - name: Thulium
+    atomicNumber: 69
+    symbol: Tm
+    weight: "168.934222"
+    melt: 1818
+    boil: 2223
+    phase: Solid
+  - name: Ytterbium
+    atomicNumber: 70
+    symbol: Yb
+    weight: "173.0451"
+    melt: 1097
+    boil: 1469
+    phase: Solid
+  - name: Lutetium
+    atomicNumber: 71
+    symbol: Lu
+    weight: "174.96681"
+    melt: 1925
+    boil: 3675
+    phase: Solid
+  - name: Hafnium
+    atomicNumber: 72
+    symbol: Hf
+    weight: "178.492"
+    melt: 2506
+    boil: 4876
+    phase: Solid
+  - name: Tantalum
+    atomicNumber: 73
+    symbol: Ta
+    weight: "180.947882"
+    melt: 3290
+    boil: 5731
+    phase: Solid
+  - name: Tungsten
+    atomicNumber: 74
+    symbol: W
+    weight: "183.841"
+    melt: 3695
+    boil: 6203
+    phase: Solid
+  - name: Rhenium
+    atomicNumber: 75
+    symbol: Re
+    weight: "186.2071"
+    melt: 3459
+    boil: 5869
+    phase: Solid
+  - name: Osmium
+    atomicNumber: 76
+    symbol: Os
+    weight: "190.233"
+    melt: 3306
+    boil: 5285
+    phase: Solid
+  - name: Iridium
+    atomicNumber: 77
+    symbol: Ir
+    weight: "192.2173"
+    melt: 2719
+    boil: 4403
+    phase: Solid
+  - name: Platinum
+    atomicNumber: 78
+    symbol: Pt
+    weight: "195.0849"
+    melt: "2041.4"
+    boil: 4098
+    phase: Solid
+  - name: Gold
+    atomicNumber: 79
+    symbol: Au
+    weight: "196.9665695"
+    melt: "1337.33"
+    boil: 3243
+    phase: Solid
+  - name: Mercury
+    atomicNumber: 80
+    symbol: Hg
+    weight: "200.5923"
+    melt: "234.321"
+    boil: "629.88"
+    phase: Liquid
+  - name: Thallium
+    atomicNumber: 81
+    symbol: Tl
+    weight: "204.38"
+    melt: 577
+    boil: 1746
+    phase: Solid
+  - name: Lead
+    atomicNumber: 82
+    symbol: Pb
+    weight: "207.21"
+    melt: "600.61"
+    boil: 2022
+    phase: Solid
+  - name: Bismuth
+    atomicNumber: 83
+    symbol: Bi
+    weight: "208.980401"
+    melt: "544.7"
+    boil: 1837
+    phase: Solid
+  - name: Polonium
+    atomicNumber: 84
+    symbol: Po
+    weight: 209
+    melt: 527
+    boil: 1235
+    phase: Solid
+  - name: Astatine
+    atomicNumber: 85
+    symbol: At
+    weight: 210
+    melt: 575
+    boil: 610
+    phase: Solid
+  - name: Radon
+    atomicNumber: 86
+    symbol: Rn
+    weight: 222
+    melt: 202
+    boil: "211.5"
+    phase: Gas
+  - name: Francium
+    atomicNumber: 87
+    symbol: Fr
+    weight: 223
+    melt: 300
+    boil: 950
+    phase: Solid
+  - name: Radium
+    atomicNumber: 88
+    symbol: Ra
+    weight: 226
+    melt: 1233
+    boil: 2010
+    phase: Solid
+  - name: Actinium
+    atomicNumber: 89
+    symbol: Ac
+    weight: 227
+    melt: 1500
+    boil: 3500
+    phase: Solid
+  - name: Thorium
+    atomicNumber: 90
+    symbol: Th
+    weight: "232.03774"
+    melt: 2023
+    boil: 5061
+    phase: Solid
+  - name: Protactinium
+    atomicNumber: 91
+    symbol: Pa
+    weight: "231.035882"
+    melt: 1841
+    boil: 4300
+    phase: Solid
+  - name: Uranium
+    atomicNumber: 92
+    symbol: U
+    weight: "238.028913"
+    melt: "1405.3"
+    boil: 4404
+    phase: Solid
+  - name: Neptunium
+    atomicNumber: 93
+    symbol: Np
+    weight: 237
+    melt: 912
+    boil: 4447
+    phase: Solid
+  - name: Plutonium
+    atomicNumber: 94
+    symbol: Pu
+    weight: 244
+    melt: "912.5"
+    boil: 3505
+    phase: Solid
+  - name: Americium
+    atomicNumber: 95
+    symbol: Am
+    weight: 243
+    melt: 1449
+    boil: 2880
+    phase: Solid
+  - name: Curium
+    atomicNumber: 96
+    symbol: Cm
+    weight: 247
+    melt: 1613
+    boil: 3383
+    phase: Solid
+  - name: Berkelium
+    atomicNumber: 97
+    symbol: Bk
+    weight: 247
+    melt: 1259
+    boil: 2900
+    phase: Solid
+  - name: Californium
+    atomicNumber: 98
+    symbol: Cf
+    weight: 251
+    melt: 1173
+    boil: 1743
+    phase: Solid
+  - name: Einsteinium
+    atomicNumber: 99
+    symbol: Es
+    weight: 252
+    melt: 1133
+    boil: 1269
+    phase: Solid
+  - name: Fermium
+    atomicNumber: 100
+    symbol: Fm
+    weight: 257
+    melt: 1800
+    boil: "N/A"
+    phase: Solid
+  - name: Mendelevium
+    atomicNumber: 101
+    symbol: Md
+    weight: 258
+    melt: 1100
+    boil: "N/A"
+    phase: Solid
+  - name: Nobelium
+    atomicNumber: 102
+    symbol: No
+    weight: 259
+    melt: 1100
+    boil: "N/A"
+    phase: Solid
+  - name: Lawrencium
+    atomicNumber: 103
+    symbol: Lr
+    weight: 266
+    melt: 1900
+    boil: "N/A"
+    phase: Solid
+  - name: Rutherfordium
+    atomicNumber: 104
+    symbol: Rf
+    weight: 267
+    melt: 2400
+    boil: 5800
+    phase: Solid
+  - name: Dubnium
+    atomicNumber: 105
+    symbol: Db
+    weight: 268
+    melt: "N/A"
+    boil: "N/A"
+    phase: Solid
+  - name: Seaborgium
+    atomicNumber: 106
+    symbol: Sg
+    weight: 269
+    melt: "N/A"
+    boil: "N/A"
+    phase: Solid
+  - name: Bohrium
+    atomicNumber: 107
+    symbol: Bh
+    weight: 270
+    melt: "N/A"
+    boil: "N/A"
+    phase: Solid
+  - name: Hassium
+    atomicNumber: 108
+    symbol: Hs
+    weight: 269
+    melt: 126
+    boil: "N/A"
+    phase: Solid
+  - name: Meitnerium
+    atomicNumber: 109
+    symbol: Mt
+    weight: 278
+    melt: "N/A"
+    boil: "N/A"
+    phase: Solid
+  - name: Darmstadtium
+    atomicNumber: 110
+    symbol: Ds
+    weight: 281
+    melt: "N/A"
+    boil: "N/A"
+    phase: Solid
+  - name: Roentgenium
+    atomicNumber: 111
+    symbol: Rg
+    weight: 282
+    melt: "N/A"
+    boil: "N/A"
+    phase: Solid
+  - name: Copernicium
+    atomicNumber: 112
+    symbol: Cn
+    weight: 285
+    melt: "N/A"
+    boil: 3570
+    phase: Liquid
+  - name: Nihonium
+    atomicNumber: 113
+    symbol: Nh
+    weight: 286
+    melt: 700
+    boil: 1430
+    phase: Solid
+  - name: Flerovium
+    atomicNumber: 114
+    symbol: Fl
+    weight: 289
+    melt: 340
+    boil: 420
+    phase: Solid
+  - name: Moscovium
+    atomicNumber: 115
+    symbol: Mc
+    weight: 289
+    melt: 670
+    boil: 1400
+    phase: Solid
+  - name: Livermorium
+    atomicNumber: 116
+    symbol: Lv
+    weight: 293
+    melt: 709
+    boil: 1085
+    phase: Solid
+  - name: Tennessine
+    atomicNumber: 117
+    symbol: Ts
+    weight: 294
+    melt: 723
+    boil: 883
+    phase: Solid
+  - name: Oganesson
+    atomicNumber: 118
+    symbol: Og
+    weight: 294
+    melt: "N/A"
+    boil: 350
+    phase: Solid

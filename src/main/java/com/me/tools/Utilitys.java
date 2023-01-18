@@ -41,26 +41,6 @@ public class Utilitys {
         }
     }
 
-    public static Boolean isSure() {
-        while (true) {
-            Scanner scanner = new Scanner(System.in);
-            logger.info("你确定吗(y/n)");
-            if (scanner.hasNextLine()) {
-                char userChoice = scanner.nextLine().toLowerCase().charAt(0);//用户的选择
-                //先变成小写 再获取第一个字符
-                switch (userChoice) {
-                    case 'y' -> {
-                        return true;
-                    }
-                    case 'n' -> {
-                        return false;
-                    }
-                }
-            }
-            logger.warn("错误");
-        }
-    }
-
     public static String userNextLine(String title) {
         while (true) {
             Scanner scanner = new Scanner(System.in);
