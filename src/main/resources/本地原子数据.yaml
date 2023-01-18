@@ -708,7 +708,7 @@ main:
     phase: Solid
   - name: Nobelium
     atomicNumber: 102
-    symbol: No
+    symbol: "No"
     weight: 259
     melt: 1100
     boil: "N/A"

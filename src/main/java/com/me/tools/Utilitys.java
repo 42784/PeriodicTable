@@ -2,8 +2,7 @@ package com.me.tools;
 
 import org.apache.log4j.Logger;
 
-import java.math.BigDecimal;
-import java.util.List;
+import java.math.BigDecimal;;
 import java.util.Scanner;
 
 /**
