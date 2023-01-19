@@ -79,10 +79,10 @@ public class PeriodicTableSystem {
             switch (aChar){
                 case '*'->{
                     Atomic atomic = PeriodicTable.atomicHashMap_atomicID.get(AtomicId++);
-                    stringBuilder.append(String.format("%-2s\t",atomic.getSymbol()));
+                    stringBuilder.append(String.format("%-2s ",atomic.getSymbol()));
                 }
                 case ' '->{
-                    stringBuilder.append("\t");
+                    stringBuilder.append("   ");
                 }
                 case '\n'->{
                     stringBuilder.append('\n');
