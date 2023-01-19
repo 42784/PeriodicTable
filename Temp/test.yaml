@@ -1,0 +1,1050 @@
+main:
+matches:
+- molecularformula: "Li"
+  allnames:
+  - "lithium"
+  - "lithium metal"
+  articles:
+  - "Lithium"
+  - "Lithium"
+  ordered: "3"
+- molecularformula: "LiAl"
+  allnames:
+  - "lithium-aluminum alloy"
+  - "aluminum; lithium"
+  articles:
+  - ""
+  - ""
+  ordered: "13,3"
+- molecularformula: "LiBr"
+  allnames:
+  - "lithium bromide"
+  - "hydrobromic acid lithium salt"
+  - "lithium monobromide"
+  articles:
+  - "Lithium bromide"
+  - ""
+  - ""
+  ordered: "3,35"
+- molecularformula: "LiCl"
+  allnames:
+  - "lithium chloride"
+  - "hydrochloric acid lithium salt"
+  - "lithium chloride anhydrous"
+  articles:
+  - "Lithium chloride"
+  - ""
+  - ""
+  ordered: "17,3"
+- molecularformula: "LiD"
+  allnames:
+  - "lithium deuteride"
+  - "lithium hydride-d"
+  articles:
+  - "Lithium hydride"
+  - ""
+  ordered: "3,1"
+- molecularformula: "LiF"
+  allnames:
+  - "lithium fluoride"
+  - "fluorolithium"
+  - "lithium monofluoride"
+  articles:
+  - "Lithium fluoride"
+  - ""
+  - ""
+  ordered: "9,3"
+- molecularformula: "LiH"
+  allnames:
+  - "lithium hydride"
+  - "hydridolithium"
+  - "hydrure de lithium"
+  - "lithium monohydride"
+  articles:
+  - "Lithium hydride"
+  - ""
+  - ""
+  - ""
+  ordered: "3,1"
+- molecularformula: "LiI"
+  allnames:
+  - "lithium iodide"
+  - "(7L)lithium iodide"
+  - "tenephrol"
+  articles:
+  - "Lithium iodide"
+  - ""
+  - ""
+  ordered: "53,3"
+- molecularformula: "LiN3"
+  allnames:
+  - "lithium azide"
+  - "lithium triazide"
+  articles:
+  - "Lithium azide"
+  - ""
+  ordered: "7,3"
+- molecularformula: "Li2O"
+  allnames:
+  - "lithium oxide"
+  - "dilithium oxygen(-2) anion"
+  articles:
+  - "Lithium oxide"
+  - ""
+  ordered: "8,3"
+- molecularformula: "Li2O2"
+  allnames:
+  - "lithium peroxide"
+  - "dilithium peroxide"
+  - "lithium oxide"
+  articles:
+  - "Lithium peroxide"
+  - "Lithium peroxide"
+  - "Lithium oxide"
+  ordered: "8,3"
+- molecularformula: "Li2S"
+  allnames:
+  - "lithium sulfide"
+  - "dilithium sulfide"
+  articles:
+  - "Lithium sulfide"
+  - ""
+  ordered: "3,16"
+- molecularformula: "Li2Se"
+  allnames:
+  - "lithium selenide"
+  articles:
+  - ""
+  ordered: "34,3"
+- molecularformula: "Li3Sb"
+  allnames:
+  - "lithium antimonide"
+  - "antimony, compound with lithium (1:3)"
+  articles:
+  - ""
+  - ""
+  ordered: "51,3"
+- molecularformula: "AlCl4Li"
+  allnames:
+  - "lithium tetrachloroaluminate"
+  - "aluminum lithium tetrachloride"
+  articles:
+  - "Lithium tetrachloroaluminate"
+  - ""
+  ordered: "3,17,13"
+- molecularformula: "LiAlD4"
+  allnames:
+  - "lithium aluminum deuteride"
+  - "deuterated LAH"
+  - "lithium tetradeuterioaluminum"
+  articles:
+  - ""
+  - ""
+  - ""
+  ordered: "13,3,1"
+- molecularformula: "LiAlH4"
+  allnames:
+  - "lithium aluminum hydride"
+  - "aluminum lithium hydride"
+  - "LAH"
+  - "lithium alanate"
+  - "lithium tetrahydridoaluminate"
+  - "lithium tetrahydroaluminate"
+  articles:
+  - "Lithium aluminium hydride"
+  - ""
+  - ""
+  - "Lithium aluminium hydride"
+  - "Lithium aluminium hydride"
+  - ""
+  ordered: "13,3,1"
+- molecularformula: "LiAlO2"
+  allnames:
+  - "lithium aluminate"
+  - "aluminum lithium oxide"
+  - "lithium keto-oxido-alumane"
+  - "lithium oxido-oxoalumane"
+  articles:
+  - "Lithium aluminate"
+  - ""
+  - ""
+  - ""
+  ordered: "13,8,3"
+- molecularformula: "LiAsF6"
+  allnames:
+  - "lithium hexafluoroarsenate"
+  - "arsenate(1-),hexafluoro-,lithium"
+  - "lithium arsenic(+5) cation hexafluoride"
+  - "lithium fluoarsenate(V)"
+  articles:
+  - ""
+  - ""
+  - ""
+  - ""
+  ordered: "33,9,3"
+- molecularformula: "AuCl4Li"
+  allnames:
+  - "lithium tetrachloroaurate(III)"
+  - "lithium tetrachlorogold"
+  articles:
+  - ""
+  - ""
+  ordered: "79,17,3"
+- molecularformula: "LiBF4"
+  allnames:
+  - "lithium tetrafluoroborate"
+  - "lithium fluoroborate"
+  articles:
+  - "Lithium tetrafluoroborate"
+  - ""
+  ordered: "3,9,5"
+- molecularformula: "LiBH4"
+  allnames:
+  - "lithium borohydride"
+  - "lithium boron(-1) tetrahydride anion"
+  articles:
+  - "Lithium borohydride"
+  - ""
+  ordered: "5,3,1"
+- molecularformula: "LiBO2"
+  allnames:
+  - "lithium metaborate"
+  - "lithium borate"
+  - "lithium keto-oxido-borane"
+  - "lithium metaborate(anhydrous)"
+  - "lithium oxido-oxoborane"
+  articles:
+  - "Lithium metaborate"
+  - "Lithium borate"
+  - ""
+  - ""
+  - ""
+  ordered: "8,5,3"
+- molecularformula: "Li2B4O7"
+  allnames:
+  - "lithium tetraborate"
+  - "dilithium ketoboranyloxy-(ketoboranyloxy-oxido-boranyl)oxy-borinate"
+  - "dilithium (oxido-oxoboranyloxyboranyl)oxy-oxoboranyloxyborinate"
+  articles:
+  - ""
+  - ""
+  - ""
+  ordered: "8,5,3"
+- molecularformula: "Li2CuBr4"
+  allnames:
+  - "dilithium tetrabromocuprate(II)"
+  - "copper dilithium tetrabromide"
+  articles:
+  - ""
+  - ""
+  ordered: "35,29,3"
+- molecularformula: "Li2NiBr4"
+  allnames:
+  - "dilithium tetrabromonickelate(II)"
+  - "dilithium tetrabromonickel"
+  - "lithium tetrabromonickelate(II) solution"
+  articles:
+  - ""
+  - ""
+  - ""
+  ordered: "35,28,3"
+- molecularformula: "CH3Li"
+  allnames:
+  - "methyllithium"
+  - "lithium carbanide"
+  - "lithium methanide"
+  - "MeLi"
+  articles:
+  - "Methyllithium"
+  - ""
+  - "Methyllithium"
+  - ""
+  ordered: "6,3,1"
+- molecularformula: "Li2CO3"
+  allnames:
+  - "lithium carbonate"
+  - "dilithium carbonate"
+  articles:
+  - "Lithium carbonate"
+  - "Lithium carbonate"
+  ordered: "6,3,8"
+- molecularformula: "CH3CH2Li"
+  allnames:
+  - "ethyllithium"
+  - "lithium ethane"
+  articles:
+  - ""
+  - ""
+  ordered: "3,1,6"
+- molecularformula: "C2Li2O4"
+  allnames:
+  - "dilithium oxalate"
+  - "ethanedioic acid, dilithium salt"
+  - "lithium oxalate"
+  - "oxalates"
+  - "oxalic acid, dilithium salt"
+  articles:
+  - ""
+  - ""
+  - ""
+  - "Oxalate"
+  - ""
+  ordered: "8,6,3"
+- molecularformula: "(CH3)2CHLi"
+  allnames:
+  - "isopropyllithium"
+  - "lithium propane"
+  articles:
+  - ""
+  - ""
+  ordered: "6,3,1"
+- molecularformula: "CH3(CH2)3Li"
+  allnames:
+  - "butyllithium"
+  - "butyllithiumin hydrocarbon solvents"
+  - "lithium-1-butanide"
+  - "lithium butane"
+  - "N-BuLi"
+  - "N-butyllithium"
+  articles:
+  - "Butyllithium"
+  - ""
+  - ""
+  - ""
+  - "N-Butyllithium"
+  - "N-Butyllithium"
+  ordered: "6,3,1"
+- molecularformula: "CH3CH2CH(CH3)Li"
+  allnames:
+  - "sec-butyllithium"
+  - "lithium, (1-methylpropyl)-"
+  - "lithium-2-butanide"
+  - "lithium butane"
+  - "N-butyllithium, 1.6M solution in hexane"
+  - "s-BuLi"
+  articles:
+  - "Sec-Butyllithium"
+  - ""
+  - ""
+  - ""
+  - ""
+  - "Sec-Butyllithium"
+  ordered: "6,3,1"
+- molecularformula: "(CH3)3CLi"
+  allnames:
+  - "tert-butyllithium"
+  - "(1,1-dimethylethyl)lithium"
+  - "lithium-2-methyl-2-propanide"
+  - "lithium 2-methylpropane"
+  - "t-BuLi"
+  articles:
+  - "Tert-Butyllithium"
+  - ""
+  - ""
+  - ""
+  - "Tert-Butyllithium"
+  ordered: "6,3,1"
+- molecularformula: "C5H5Li"
+  allnames:
+  - "cyclopentadienyllithium"
+  - "lithium cyclopenta-1,3-diene"
+  - "lithium cyclopentadienylide"
+  articles:
+  - ""
+  - ""
+  - ""
+  ordered: "1,6,3"
+- molecularformula: "C6H5Li"
+  allnames:
+  - "phenyllithium"
+  - "lithium benzene"
+  - "lithiumphenyl"
+  - "PhLi"
+  articles:
+  - "Phenyllithium"
+  - ""
+  - ""
+  - ""
+  ordered: "6,3,1"
+- molecularformula: "CH3(CH2)5Li"
+  allnames:
+  - "N-hexyllithium"
+  - "hexyl lithium"
+  - "lithium hexane"
+  - "lithium, hexyl-"
+  - "N-esillitio [Italian]"
+  - "N-hexillitio [Portuguese]"
+  articles:
+  - ""
+  - ""
+  - ""
+  - ""
+  - ""
+  - ""
+  ordered: "6,3,1"
+- molecularformula: "C6H5C≡CLi"
+  allnames:
+  - "lithium phenylacetylide"
+  - "lithium ethynylbenzene"
+  - "(phenylethynyl)lithium"
+  articles:
+  - ""
+  - ""
+  - ""
+  ordered: "6,3,1"
+- molecularformula: "LiCH2CH(CH2CH3)(CH2)3CH3"
+  allnames:
+  - "2-ethylhexyllithium"
+  - "lithium 3-methanidylheptane"
+  articles:
+  - ""
+  - ""
+  ordered: "6,3,1"
+- molecularformula: "LiC5H(CH3)4"
+  allnames:
+  - "lithium tetramethylcyclopentadienide"
+  - "lithium; 1,2,3,4-tetramethylcyclopentane"
+  articles:
+  - ""
+  - ""
+  ordered: "6,3,1"
+- molecularformula: "C10H15Li"
+  allnames:
+  - "lithium pentamethylcyclopentadienide"
+  - "lithium; 1,2,3,4,5-pentamethylcyclopentane"
+  articles:
+  - ""
+  - ""
+  ordered: "6,3,1"
+- molecularformula: "ClLiO"
+  allnames:
+  - "lithium hypochlorite"
+  - "hypochlorous acid, lithium salt"
+  - "lithium chloride oxide"
+  - "lithium hypochlorite mixtures, dry"
+  - "lithium oxychloride"
+  articles:
+  - "Lithium hypochlorite"
+  - ""
+  - ""
+  - ""
+  - ""
+  ordered: "17,8,3"
+- molecularformula: "LiClO4"
+  allnames:
+  - "lithium perchlorate"
+  - "lithium perchlorate, anhydrous"
+  - "perchloric acid lithium salt"
+  articles:
+  - "Lithium perchlorate"
+  - ""
+  - "Lithium perchlorate"
+  ordered: "17,8,3"
+- molecularformula: "(LiCl)(KCl)"
+  allnames:
+  - "lithium chloride/potassium chloride eutectic"
+  - "lithium potassium dichloride"
+  articles:
+  - ""
+  - ""
+  ordered: "17,3,19"
+- molecularformula: "Li2CuCl4"
+  allnames:
+  - "dilithium tetrachlorocuprate(II)"
+  - "copper dilithium tetrachloride"
+  articles:
+  - ""
+  - ""
+  ordered: "29,17,3"
+- molecularformula: "Cl4GaLi"
+  allnames:
+  - "lithium tetrachlorogallate"
+  articles:
+  - ""
+  ordered: "31,17,3"
+- molecularformula: "CoLiO2"
+  allnames:
+  - "lithium cobalt(III)oxide"
+  - "lithium cobaltite"
+  - "lithium keto-oxido-cobalt"
+  - "lithium oxido-oxocobalt"
+  articles:
+  - ""
+  - "Lithium cobalt oxide"
+  - ""
+  - ""
+  ordered: "8,3,27"
+- molecularformula: "CrLi2O4"
+  allnames:
+  - "lithium chromate"
+  - "chromium lithium oxide"
+  articles:
+  - ""
+  - ""
+  ordered: "24,8,3"
+- molecularformula: "Li2Cr2O7"
+  allnames:
+  - "lithium dichromate"
+  - "chromic acid, dilithium salt"
+  - "lithium dichromate(VI)"
+  articles:
+  - ""
+  - ""
+  - ""
+  ordered: "24,8,3"
+- molecularformula: "LiOD·D2O"
+  allnames:
+  - "lithium deuteroxide"
+  articles:
+  - ""
+  ordered: "8,3,1"
+- molecularformula: "LiPF6"
+  allnames:
+  - "lithium hexafluorophosphate"
+  - "lithium hexafluorophosphate(1-)"
+  - "phosphate(1-),hexafluoro-,lithium"
+  articles:
+  - "Lithium hexafluorophosphate"
+  - ""
+  - ""
+  ordered: "15,9,3"
+- molecularformula: "FeLiO2"
+  allnames:
+  - "lithium iron(III)oxide"
+  - "lithium ferrite"
+  - "lithium keto-oxido-iron"
+  - "lithium oxido-oxoiron"
+  articles:
+  - ""
+  - ""
+  - ""
+  - ""
+  ordered: "26,8,3"
+- molecularformula: "FeLiSi"
+  allnames:
+  - "lithium ferrosilicon"
+  - "ferrate(1-),silanetetrayl-,lithium"
+  - "iron lithium silicide"
+  - "silane, iron complex"
+  articles:
+  - ""
+  - ""
+  - ""
+  - ""
+  ordered: "26,14,3"
+- molecularformula: "LiOH"
+  allnames:
+  - "lithium hydroxide"
+  - "lithium hydrate"
+  - "lithium hydroxide (1:1)"
+  - "lithium hydroxide anhydrous"
+  - "lithium hydroxide, solution"
+  articles:
+  - "Lithium hydroxide"
+  - ""
+  - ""
+  - ""
+  - ""
+  ordered: "8,3,1"
+- molecularformula: "LiNH2"
+  allnames:
+  - "lithium amide"
+  - "lithium azanide"
+  - "lithamide"
+  articles:
+  - "Lithium amide"
+  - ""
+  - "Lithium amide"
+  ordered: "7,3,1"
+- molecularformula: "Li3N"
+  allnames:
+  - "lithium nitride"
+  - "trilithium azanide"
+  articles:
+  - "Lithium nitride"
+  - ""
+  ordered: "7,3,1"
+- molecularformula: "LiOH·H2O"
+  allnames:
+  - "lithium hydroxide monohydrate"
+  - "lithium(+1) cation hydroxide hydrate"
+  articles:
+  - ""
+  - ""
+  ordered: "8,3,1"
+- molecularformula: "^6LiOH·H2O"
+  allnames:
+  - "lithium-6Li hydroxide monohydrate"
+  - "lithium-6 hydroxide monohydrate"
+  articles:
+  - ""
+  - ""
+  ordered: "8,3,1"
+- molecularformula: "^7LiOH·H2O"
+  allnames:
+  - "lithium-7 li hydroxide monohydrate"
+  - "lithium(+1) cation hydroxide hydrate"
+  articles:
+  - ""
+  - ""
+  ordered: "1,8,3"
+- molecularformula: "LiIO3"
+  allnames:
+  - "lithium iodate"
+  articles:
+  - ""
+  ordered: "53,8,3"
+- molecularformula: "LiMn2O4"
+  allnames:
+  - "lithium manganese(III,IV)oxide"
+  - "lithium keto-(ketomanganiooxy)-oxido-manganese"
+  - "lithium oxido-oxo-(oxomanganiooxy)manganese"
+  articles:
+  - ""
+  - ""
+  - ""
+  ordered: "25,8,3"
+- molecularformula: "LiNO3"
+  allnames:
+  - "lithium nitrate"
+  articles:
+  - "Lithium nitrate"
+  ordered: "8,7,3"
+- molecularformula: "LiNbO3"
+  allnames:
+  - "lithium niobate"
+  - "lithium diketo-oxido-niobium"
+  - "lithium metaniobate"
+  - "lithium niobate(V)"
+  - "lithium niobium oxide"
+  - "lithium niobium trioxide"
+  - "lithium oxido-dioxoniobium"
+  articles:
+  - "Lithium niobate"
+  - ""
+  - ""
+  - ""
+  - ""
+  - ""
+  - ""
+  ordered: "41,8,3"
+- molecularformula: "LiO3P"
+  allnames:
+  - "lithium metaphosphate"
+  articles:
+  - ""
+  ordered: "15,8,3"
+- molecularformula: "LiTaO3"
+  allnames:
+  - "lithium tantalate"
+  - "lithium; oxygen(-2) anion; tantalum(+5) cation"
+  articles:
+  - "Lithium tantalate"
+  - ""
+  ordered: "73,8,3"
+- molecularformula: "LiVO3"
+  allnames:
+  - "lithium metavanadate"
+  - "lithium vanadate"
+  - "lithium vanadium trioxide"
+  articles:
+  - ""
+  - ""
+  - ""
+  ordered: "23,8,3"
+- molecularformula: "LiSbF6"
+  allnames:
+  - "lithium hexafluoroantimonate"
+  articles:
+  - ""
+  ordered: "51,9,3"
+- molecularformula: "6Li2CO3"
+  allnames:
+  - "lithium-6 li 2carbonate"
+  articles:
+  - ""
+  ordered: "8,6,3"
+- molecularformula: "Li2MoO4"
+  allnames:
+  - "lithium molybdate"
+  - "dilithium diketo-dioxido-molybdenum"
+  - "dilithium dioxido-dioxomolybdenum"
+  articles:
+  - "Lithium molybdate"
+  - ""
+  - ""
+  ordered: "42,8,3"
+- molecularformula: "Li2O3Si"
+  allnames:
+  - "lithium silicate"
+  - "lithium metasilicate"
+  - "lithium silicon oxide"
+  - "silicic acid, dilithium salt"
+  articles:
+  - ""
+  - ""
+  - ""
+  - ""
+  ordered: "8,3,14"
+- molecularformula: "Li2O3Ti"
+  allnames:
+  - "lithium titanate"
+  - "dilithium dioxido-oxotitanium"
+  - "dilithium keto-dioxido-titanium"
+  articles:
+  - "Lithium titanate"
+  - ""
+  - ""
+  ordered: "22,8,3"
+- molecularformula: "Li2ZrO3"
+  allnames:
+  - "lithium zirconate"
+  - "dilithium dioxido-oxozirconium"
+  - "dilithium keto-dioxido-zirconium"
+  articles:
+  - ""
+  - ""
+  - ""
+  ordered: "40,8,3"
+- molecularformula: "Li2SO4"
+  allnames:
+  - "lithium sulfate"
+  - "dilithium sulfate"
+  - "lithiophor"
+  - "lithium-duriles"
+  - "lithium sulphate"
+  - "sulfuric acid, dilithium salt"
+  articles:
+  - "Lithium sulfate"
+  - ""
+  - ""
+  - ""
+  - "Lithium sulfate"
+  - ""
+  ordered: "16,8,3"
+- molecularformula: "Li2WO4"
+  allnames:
+  - "lithium tungstate"
+  - "dilithium diketo-dioxido-tungsten"
+  - "dilithium dioxido-dioxotungsten"
+  articles:
+  - ""
+  - ""
+  - ""
+  ordered: "8,3,74"
+- molecularformula: "Li2Si5O11"
+  allnames:
+  - "lithium polysilicate"
+  - "dilithium bis[[(oxido-oxosilyl)oxy-oxosilyl]oxy]-oxosilane"
+  - "dilithium keto-bis[[keto-(keto-oxido-silyl)oxy-silyl]oxy]silane"
+  articles:
+  - ""
+  - ""
+  - ""
+  ordered: "14,8,3"
+- molecularformula: "Li2SnF6"
+  allnames:
+  - "lithium hexafluorostannate"
+  articles:
+  - ""
+  ordered: "50,9,3"
+- molecularformula: "Li3PO4"
+  allnames:
+  - "lithium phosphate"
+  - "trilithium phosphate"
+  articles:
+  - "Lithium iron phosphate"
+  - ""
+  ordered: "3,15,8"
+- molecularformula: "Li4SiO4"
+  allnames:
+  - "lithium orthosilicate"
+  - "tetralithium dioxido-oxo-silane"
+  articles:
+  - ""
+  - ""
+  ordered: "14,8,3"
+- molecularformula: "LiBO2·2H2O"
+  allnames:
+  - "lithium metaborate dihydrate"
+  - "lithium keto-oxido-borane dihydrate"
+  - "lithium oxido-oxoborane dihydrate"
+  articles:
+  - ""
+  - ""
+  - ""
+  ordered: "8,5,3,1"
+- molecularformula: "LiBr·xH2O"
+  allnames:
+  - "lithium bromide hydrate"
+  articles:
+  - ""
+  ordered: "35,8,3,1"
+- molecularformula: "CH3OLi"
+  allnames:
+  - "lithium methoxide"
+  - "lithium methanolate"
+  - "lithium methylate"
+  - "methanol, lithium salt"
+  - "methoxylithium"
+  articles:
+  - "Methoxide"
+  - ""
+  - "Methoxide"
+  - ""
+  - ""
+  ordered: "8,6,3,1"
+- molecularformula: "HCO2Li·H2O"
+  allnames:
+  - "lithium formate monohydrate"
+  - "formic acid lithium salt"
+  - "lithium formate hydrate"
+  - "lithium methanoate hydrate"
+  articles:
+  - ""
+  - ""
+  - ""
+  - ""
+  ordered: "8,6,3,1"
+- molecularformula: "CF3CO2Li"
+  allnames:
+  - "lithium trifluoroacetate"
+  - "lithium 2,2,2-trifluoroacetate"
+  - "lithium 2,2,2-trifluoroethanoate"
+  - "trifluoroacetic acid lithium salt"
+  articles:
+  - ""
+  - ""
+  - ""
+  - ""
+  ordered: "9,8,6,3"
+- molecularformula: "LiOOCCH3"
+  allnames:
+  - "lithium acetate"
+  - "acetic acid, lithium salt"
+  - "lithium ethanate"
+  - "lithium ethanoate"
+  - "quilone"
+  articles:
+  - "Lithium acetate"
+  - ""
+  - ""
+  - ""
+  - ""
+  ordered: "1,8,6,3"
+- molecularformula: "C2H5LiO"
+  allnames:
+  - "lithium ethoxide"
+  - "lithium ethanolate"
+  articles:
+  - ""
+  - ""
+  ordered: "8,6,3,1"
+- molecularformula: "(CH3)2NLi"
+  allnames:
+  - "lithium dimethylamide"
+  - "lithium dimethylazanide"
+  articles:
+  - ""
+  - ""
+  ordered: "1,7,6,3"
+- molecularformula: "CH3COOLi·2H2O"
+  allnames:
+  - "lithium acetate dihydrate"
+  - "acetic acid lithium salt"
+  articles:
+  - ""
+  - ""
+  ordered: "8,6,3,1"
+- molecularformula: "CH3CH(OH)CO2Li"
+  allnames:
+  - "lithium (D)-lactate"
+  - "D-lactic acid lithium salt"
+  - "propanoic acid, 2-hydroxy-,monolithium salt, (R)-"
+  - "(R)-2-hydroxypropionic acid lithium salt"
+  articles:
+  - ""
+  - ""
+  - ""
+  - ""
+  ordered: "8,6,3,1"
+- molecularformula: "CH3CH(OH)CO2Li"
+  allnames:
+  - "lithium L-lactate"
+  - "lithium (S)-lactate"
+  - "L-lactic acid lithium salt"
+  - "propanoic acid, 2-hydroxy-, monolithium salt, (S)-"
+  - "(S)-2-hydroxypropionic acid lithium salt"
+  - "sarcolactic acid lithium salt"
+  articles:
+  - ""
+  - ""
+  - ""
+  - ""
+  - ""
+  - ""
+  ordered: "8,6,3,1"
+- molecularformula: "CH3CH(OH)CO2Li"
+  allnames:
+  - "lithium lactate"
+  - "lactic acid lithium salt"
+  - "lithium 2-hydroxypropanoate"
+  - "lithium 2-hydroxypropionate"
+  - "propanoic acid, 2-hydroxy-, monolithium salt"
+  articles:
+  - ""
+  - ""
+  - ""
+  - ""
+  - ""
+  ordered: "3,1,8,6"
+- molecularformula: "(CH3)2CHOLi"
+  allnames:
+  - "lithium isopropoxide"
+  - "lithium 2-propanolate"
+  - "lithium propan-2-olate"
+  articles:
+  - ""
+  - ""
+  - ""
+  ordered: "8,6,3,1"
+- molecularformula: "C4H3LiS"
+  allnames:
+  - "2-thienyllithium"
+  - "lithium 5H-thiophen-5-ide"
+  articles:
+  - ""
+  - ""
+  ordered: "16,6,3,1"
+- molecularformula: "NH2CH2CH2NH2·LiCCH"
+  allnames:
+  - "lithium acetylide ethylenediamine"
+  - "(1,2-diaminoethane)(ethynyl)lithium"
+  - "ethynyllithium complex with 1,2-ethanediamine (1:1)"
+  - "lithium acetylide ethylenediamine complex"
+  articles:
+  - ""
+  - ""
+  - ""
+  - ""
+  ordered: "7,6,3,1"
+- molecularformula: "LiC≡CH·NH2CH2CH2NH2"
+  allnames:
+  - "lithium acetylide-ethylenediamine complex"
+  - "(1,2-ethanediamine-N,N')ethynyllithium"
+  - "(acetylido)(ethylenediamine)lithium"
+  - "lithium; acetylene; 2-aminoethylamine"
+  - "lithium; acetylene; ethane-1,2-diamine"
+  - "lithium; ethane-1,2-diamine; ethyne"
+  articles:
+  - ""
+  - ""
+  - ""
+  - ""
+  - ""
+  - ""
+  ordered: "7,6,3,1"
+- molecularformula: "(CH3)3COLi"
+  allnames:
+  - "lithium tert-butoxide"
+  - "lithium 2-methylpropan-2-olate"
+  articles:
+  - ""
+  - ""
+  ordered: "8,6,3,1"
+- molecularformula: "(C2H5)2NLi"
+  allnames:
+  - "lithium diethylamide"
+  - "lithium diethylazanide"
+  articles:
+  - ""
+  - ""
+  ordered: "3,1,7,6"
+- molecularformula: "(CH3)3SiCH2Li"
+  allnames:
+  - "(trimethylsilyl)methyllithium"
+  - "lithium methanidyl-trimethylsilane"
+  articles:
+  - ""
+  - ""
+  ordered: "14,6,3,1"
+- molecularformula: "CH3COCH=C(OLi)CH3"
+  allnames:
+  - "lithium acetylacetonate"
+  - "2,4-pentanedionato lithium"
+  - "2,4-pentanedione lithium derivative"
+  - "acetylacetone lithium derivative"
+  - "Li(acac)"
+  - "lithium (Z)-4-ketopent-2-en-2-olate"
+  - "lithium (Z)-4-oxopent-2-en-2-olate"
+  - "pentane-2,4-dione, monolithium salt"
+  articles:
+  - ""
+  - ""
+  - ""
+  - ""
+  - ""
+  - ""
+  - ""
+  - ""
+  ordered: "8,6,3,1"
+- molecularformula: "(CH3)3SiC≡CLi"
+  allnames:
+  - "lithium(trimethylsilyl)acetylide"
+  - "lithium ethynyl-trimethylsilane"
+  - "(trimethylsilyl)ethynyllithium"
+  articles:
+  - ""
+  - ""
+  - ""
+  ordered: "14,6,3,1"
+- molecularformula: "C6H5OLi"
+  allnames:
+  - "lithium phenoxide"
+  - "lithium; phenol"
+  - "phenol lithium salt"
+  articles:
+  - ""
+  - ""
+  - ""
+  ordered: "8,6,3,1"
+counts:
+  "1": 113
+  "3": 169
+  "5": 19
+  "6": 87
+  "7": 25
+  "8": 100
+  "9": 11
+  "12": 3
+  "13": 9
+  "14": 9
+  "15": 6
+  "16": 14
+  "17": 13
+  "19": 2
+  "22": 1
+  "23": 1
+  "24": 6
+  "25": 1
+  "26": 2
+  "27": 1
+  "28": 1
+  "29": 3
+  "31": 1
+  "33": 1
+  "34": 3
+  "35": 5
+  "40": 1
+  "41": 1
+  "42": 1
+  "46": 1
+  "50": 1
+  "51": 2
+  "53": 7
+  "73": 1
+  "74": 1
+  "78": 2
+  "79": 1
+totalresults: 169
+formula: null

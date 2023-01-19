@@ -16,7 +16,7 @@ import java.util.*;
  */
 public class PeriodicTable {
     public static final Logger logger = Logger.getLogger(PeriodicTable.class);
-    public static final String softwareAddress = "C:\\Users\\Administrator\\Desktop\\PeriodicTable";//软件地址
+    public static String softwareAddress = System.getProperty("user.dir");//软件地址
     public static final HashMap<String, Atomic> atomicHashMap_symbol = new HashMap<>();
     public static final HashMap<Integer, Atomic> atomicHashMap_atomicID = new HashMap<>();
     public static final List<Atomic> atomicList = new ArrayList<>();
@@ -44,7 +44,7 @@ public class PeriodicTable {
         File tempFile = File.createTempFile("PeriodicTable\\PeriodicTableAtomicData", "yaml");
         BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(tempFile));
         String line;
-        while((line = bufferedReader.readLine())!=null){
+        while ((line = bufferedReader.readLine()) != null) {
             bufferedWriter.write(line);
             bufferedWriter.newLine();
         }
@@ -57,7 +57,6 @@ public class PeriodicTable {
         YamlFile yamlFile = new YamlTools(
                 tempFile.getPath()
         ).getYamlFile();
-
 
 
         List<Map<?, ?>> main = yamlFile.getMapList("main");

@@ -12,7 +12,7 @@ import java.util.List;
  */
 public class PeriodicTableSystem {
     public static final Logger logger = Logger.getLogger(PeriodicTableSystem.class);
-    private static final String PeriodicTableFormat = """
+    private static final String PeriodicTableFormat = """ 
             *                              *
             **                        ******
             **                        ******
@@ -26,10 +26,12 @@ public class PeriodicTableSystem {
         System.out.println();
         logger.info("===============================元素周期表系统===============================");
         logger.info("0.退出系统");
-        logger.info("1.通过原子序数查询原子信息");
-        logger.info("2.通过元素符号查询");
+        logger.info("1.通过原子序数查询 该原子信息");
+        logger.info("2.通过元素符号查询 该原子信息");
         logger.info("3.打印所有原子的信息");
         logger.info("4.打印元素周期表");
+        logger.info("5.通过原子序数查询 由该原子的组成的化学式");
+        logger.info("6.通过元素符号查询 由该原子的组成的化学式");
         Integer nextInt = Utilitys.userNextInt("你的选择");
         switch (nextInt) {
             case 0 -> System.exit(0);
@@ -37,12 +39,28 @@ public class PeriodicTableSystem {
             case 2 -> queryAtomicBySymbol();
             case 3 -> printAllAtomic();
             case 4 -> printPeriodicTable();
+            case 5 -> getChemicalFormulaByID();
+            case 6 -> getChemicalFormulaBySymbol();
 
         }
         joinSystem();
     }
+    public static void getChemicalFormulaByID(){
+        Integer atomicID = Utilitys.userNextInt("原子序数");
+        try {
+            Atomic atomic = PeriodicTable.atomicHashMap_atomicID.get(atomicID);
+            String symbol = atomic.getSymbol();
+        } catch (Exception e) {
+            logger.warn("未知的原子序数");
+        }
+    }
 
-    public static void queryAtomicByID() {
+    public static void getChemicalFormulaBySymbol() {
+        String symbol = Utilitys.userNextLine("元素符号(如He)");
+
+    }
+
+    public static void queryAtomicByID(){
         Integer atomicID = Utilitys.userNextInt("原子序数");
         try {
             Atomic atomic = PeriodicTable.atomicHashMap_atomicID.get(atomicID);
