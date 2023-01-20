@@ -50,12 +50,16 @@ public class PeriodicTableSystem {
     }
 
     public static void getChemicalFormulaByID() {
+        Timings_Object timingsObject = new Timings_Object();
         Integer atomicID = Utilitys.userNextInt("原子序数");
+        timingsObject.startTimings();
         try {
             Atomic atomic = PeriodicTable.atomicHashMap_atomicID.get(atomicID);
             String symbol = atomic.getSymbol();
             File file = URLTool.requestServer(//请求网络获取化学式
                     "https://ptable.com/JSON/compounds/formula=" + symbol, "ChemicalFormula.yaml");
+            timingsObject.stopTimings();
+            logger.info(String.format("联网获取化学式成功，耗时: %dms",timingsObject.getTime()));
             printChemicalFormula(file);
         } catch (Exception e) {
             e.printStackTrace();
@@ -63,9 +67,13 @@ public class PeriodicTableSystem {
     }
 
     public static void getChemicalFormulaBySymbol() {
+        Timings_Object timingsObject = new Timings_Object();
         String symbol = Utilitys.userNextLine("元素符号(如He)");
+        timingsObject.startTimings();
         File file = URLTool.requestServer(//请求网络获取化学式
                 "https://ptable.com/JSON/compounds/formula=" + symbol, "ChemicalFormula.yaml");
+        timingsObject.stopTimings();
+        logger.info(String.format("联网获取化学式成功，耗时: %dms",timingsObject.getTime()));
         printChemicalFormula(file);
 
     }

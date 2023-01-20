@@ -1,941 +1,977 @@
 main:
 matches:
-- molecularformula: "Si"
+- molecularformula: "Sb"
   allnames:
-  - "silicon"
-  - "silicon metal"
+  - "gray antimony"
+  - "antimony gray"
+  - "antimony regulus"
+  - "beta-antimony"
+  - "crystalline antimony"
+  - "metallic antimony"
+  - "rhombohedral antimony"
+  - "silver antimony"
   articles:
-  - "Silicon"
   - ""
-  ordered: "14"
-- molecularformula: "MoSi2"
+  - ""
+  - "Antimony regulus"
+  - ""
+  - ""
+  - ""
+  - ""
+  - ""
+  ordered: "51"
+- molecularformula: "AlSb"
   allnames:
-  - "molybdenum disilicide"
-  - "molybdenum silicide"
-  - "Ms"
-  - "silanidylidynesilanide"
+  - "aluminum antimonide"
+  - "aluminum, compound with antimony (1:1)"
+  - "aluminum monoantimonide"
   articles:
-  - "Molybdenum disilicide"
-  - "Molybdenum disilicide"
-  - "MS"
+  - "Aluminium antimonide"
   - ""
-  ordered: "14"
-- molecularformula: "SiB4"
+  - ""
+  ordered: "51,13"
+- molecularformula: "Ba3Sb2"
   allnames:
-  - "silicon tetraboride"
-  - "1-sila-2,3,4,5-tetraboracyclopenta-1,3,5-triene"
+  - "barium antimonide"
+  - "antimony, compound with barium (2:3)"
   articles:
   - ""
   - ""
-  ordered: "5,14"
-- molecularformula: "SiB6"
+  ordered: "56,51"
+- molecularformula: "BiSb"
   allnames:
-  - "silicon hexaboride"
+  - "bismuth antimonide"
   articles:
   - ""
-  ordered: "5,14"
-- molecularformula: "BaSi2"
+  ordered: "83,51"
+- molecularformula: "SbBr3"
   allnames:
-  - "barium silicide"
+  - "antimony tribromide"
+  - "antimony bromide"
+  - "antimony(III) bromide"
+  - "tribromostibane"
+  - "tribromostibine"
   articles:
+  - "Antimony tribromide"
+  - "Antimony tribromide"
+  - "Antimony tribromide"
   - ""
-  ordered: "14,56"
-- molecularformula: "SiBr4"
+  - ""
+  ordered: "51,35"
+- molecularformula: "CdSb"
   allnames:
-  - "silicon tetrabromide"
-  - "silicon(IV) bromide"
-  - "tetrabromosilane"
+  - "cadmium antimonide"
   articles:
-  - "Silicon tetrabromide"
-  - "Silicon tetrabromide"
-  - "Silicon tetrabromide"
-  ordered: "14,35"
-- molecularformula: "SiC"
+  - ""
+  ordered: "51,48"
+- molecularformula: "SbCl3"
   allnames:
-  - "silicon carbide"
-  - "carborundum"
-  - "methanidylidynesilicon"
-  - "silicon monocarbide"
-  - "silundum"
+  - "antimony(III) chloride"
+  - "antimony trichloride"
+  - "trichlorostibane"
   articles:
-  - "Silicon carbide"
-  - "Silicon carbide"
+  - "Antimony trichloride"
+  - "Antimony trichloride"
   - ""
-  - ""
-  - ""
-  ordered: "6,14"
-- molecularformula: "CaSi"
+  ordered: "51,17"
+- molecularformula: "SbCl5"
   allnames:
-  - "calcium silicide"
-  - "calcium monosilicide"
-  - "calcium silicon"
+  - "antimony pentachloride"
+  - "antimony chloride"
+  - "antimony perchloride"
+  - "antimony(V) chloride"
+  - "pentachlorostiborane"
   articles:
-  - "Calcium silicide"
+  - "Antimony pentachloride"
+  - "Antimony chloride"
+  - "Antimony pentachloride"
+  - "Antimony pentachloride"
   - ""
-  - ""
-  ordered: "14,20"
-- molecularformula: "CeSi2"
+  ordered: "51,17"
+- molecularformula: "CoSb"
   allnames:
-  - "cerium silicide"
-  - "cerium disilicide"
+  - "cobalt antimonide"
   articles:
-  - ""
   - ""
-  ordered: "14,58"
-- molecularformula: "Cl2SiH2"
+  ordered: "51,27"
+- molecularformula: "CrSb"
   allnames:
-  - "dichlorosilane"
-  - "dichlorosilicon"
+  - "chromium antimonide"
   articles:
-  - "Dichlorosilane"
   - ""
-  ordered: "14,17"
-- molecularformula: "SiHCl3"
+  ordered: "51,24"
+- molecularformula: "Cs3Sb"
   allnames:
-  - "trichlorosilane"
-  - "trichlorosilicon"
+  - "cesium antimonide"
+  - "antimony, compound with cesium (1:3)"
   articles:
-  - "Trichlorosilane"
   - ""
-  ordered: "14,17"
-- molecularformula: "SiCl4"
+  - ""
+  ordered: "55,51"
+- molecularformula: "Cu3Sb"
   allnames:
-  - "silicon tetrachloride"
-  - "silicon chloride"
-  - "silicon(IV) chloride"
-  - "tetrachlorosilane"
+  - "copper antimonide"
+  - "antimony, compound with copper (1:3)"
   articles:
-  - "Silicon tetrachloride"
-  - "Silicon tetrachloride"
-  - "Silicon tetrachloride"
-  - "Silicon tetrachloride"
-  ordered: "14,17"
-- molecularformula: "(SiCl3)2"
+  - ""
+  - ""
+  ordered: "51,29"
+- molecularformula: "DySb"
   allnames:
-  - "hexachlorodisilane"
-  - "trichloro-trichlorosilylsilane"
+  - "dysprosium antimonide"
+  - "antimony, compound with dysprosium (1:1)"
   articles:
   - ""
   - ""
-  ordered: "14,17"
-- molecularformula: "Cl8Si3"
+  ordered: "66,51"
+- molecularformula: "ErSb"
   allnames:
-  - "octachlorotrisilane"
+  - "erbium antimonide"
+  - "antimony, compound with erbium (1:1)"
   articles:
   - ""
-  ordered: "14,17"
-- molecularformula: "CoSi2"
+  - ""
+  ordered: "68,51"
+- molecularformula: "SbF3"
   allnames:
-  - "cobalt silicide"
+  - "antimony trifluoride"
+  - "antimonous fluoride"
+  - "antimony(III) fluoride"
+  - "trifluoroantimony"
+  - "trifluorostibane"
   articles:
+  - "Antimony trifluoride"
+  - ""
+  - "Antimony trifluoride"
+  - "Antimony trifluoride"
   - ""
-  ordered: "14,27"
-- molecularformula: "CrSi2"
+  ordered: "51,9"
+- molecularformula: "SbF5"
   allnames:
-  - "chromium silicide"
-  - "chromium(+2) cation; silanidylidynesilanide"
-  - "chromous silanidylidynesilanide"
+  - "antimony pentafluoride"
+  - "antimony fluoride"
+  - "antimony(V) fluoride"
+  - "antimony(V) pentafluoride"
+  - "pentafluorostiborane"
   articles:
+  - "Antimony pentafluoride"
+  - "Antimony fluoride"
+  - "Antimony pentafluoride"
   - ""
   - ""
-  - ""
-  ordered: "14,24"
-- molecularformula: "Cu5Si"
+  ordered: "51,9"
+- molecularformula: "FeSb2"
   allnames:
-  - "copper silicide"
+  - "iron diantimonide"
+  - "antimony, compound with iron (2:1)"
+  - "iron antimonide"
   articles:
-  - "Copper silicide"
-  ordered: "14,29"
-- molecularformula: "SiD4"
+  - ""
+  - ""
+  - ""
+  ordered: "26,51"
+- molecularformula: "GaSb"
   allnames:
-  - "deuterated silane"
-  - "silane-d4"
-  - "tetradeuteriosilane"
+  - "gallium antimonide"
+  - "antimony, compound with gallium (1:1)"
+  - "gallium antimony"
+  - "gallium monoantimonide"
   articles:
+  - "Gallium antimonide"
   - ""
   - ""
   - ""
-  ordered: "1,14"
-- molecularformula: "DySi2"
+  ordered: "51,31"
+- molecularformula: "GdSb"
   allnames:
-  - "dysprosium silicide"
+  - "gadolinium antimonide"
+  - "antimony, compound with gadolinium (1:1)"
   articles:
+  - ""
   - ""
-  ordered: "14,66"
-- molecularformula: "ErSi2"
+  ordered: "64,51"
+- molecularformula: "HoSb"
   allnames:
-  - "erbium silicide"
+  - "holmium antimonide"
+  - "antimony, compound with holmium (1:1)"
   articles:
   - ""
-  ordered: "14,68"
-- molecularformula: "EuSi2"
+  - ""
+  ordered: "67,51"
+- molecularformula: "SbI3"
   allnames:
-  - "europium silicide"
+  - "antimony(III) iodide"
+  - "antimony triiodide"
+  - "triiodostibane"
+  - "triiodostibine"
   articles:
+  - ""
+  - "Antimony triiodide"
   - ""
-  ordered: "14,63"
-- molecularformula: "SiF4"
+  - ""
+  ordered: "53,51"
+- molecularformula: "InSb"
   allnames:
-  - "silicon tetrafluoride"
-  - "perfluorosilane"
-  - "silicon fluoride"
-  - "silicon(IV) fluoride"
-  - "tetrafluorosilane"
+  - "indium antimonide"
+  - "antimony compound with indium (1:1)"
+  - "indiganylidynestibane"
+  - "indium monoantimonide"
+  - "ndium monoantimonide"
   articles:
-  - "Silicon tetrafluoride"
+  - "Indium antimonide"
+  - ""
   - ""
-  - "Silicon tetrafluoride"
-  - "Silicon tetrafluoride"
-  - "Silicon tetrafluoride"
-  ordered: "9,14"
-- molecularformula: "F6Si2"
+  - ""
+  - ""
+  ordered: "51,49"
+- molecularformula: "LaSb"
   allnames:
-  - "hexafluorodisilane"
+  - "lanthanum antimonide"
+  - "antimony, compound with lanthanum (1:1)"
   articles:
+  - ""
   - ""
-  ordered: "9,14"
-- molecularformula: "F8Si3"
+  ordered: "57,51"
+- molecularformula: "Li3Sb"
   allnames:
-  - "octafluorotrisilane"
+  - "lithium antimonide"
+  - "antimony, compound with lithium (1:3)"
   articles:
   - ""
-  ordered: "9,14"
-- molecularformula: "FeSi"
+  - ""
+  ordered: "51,3"
+- molecularformula: "LuSb"
   allnames:
-  - "iron silicide"
+  - "lutetium antimonide"
+  - "antimony, compound with lutetium (1:1)"
   articles:
+  - ""
   - ""
-  ordered: "14,26"
-- molecularformula: "FeSi2"
+  ordered: "71,51"
+- molecularformula: "Mg3Sb2"
   allnames:
-  - "iron disilicide"
+  - "magnesium antimonide"
   articles:
   - ""
-  ordered: "14,26"
-- molecularformula: "GdSi2"
+  ordered: "51,12"
+- molecularformula: "MnSb"
   allnames:
-  - "gadolinium silicide"
+  - "manganese antimonide (1:1)"
+  - "manganese antimonide"
   articles:
   - ""
-  ordered: "14,64"
-- molecularformula: "SiH4"
+  - ""
+  ordered: "51,25"
+- molecularformula: "Mn2Sb"
   allnames:
-  - "silane"
-  - "monosilane"
-  - "silicane"
-  - "silicon tetrahydride"
+  - "manganese antimonide (2:1)"
+  - "manganese antimonide"
   articles:
-  - "Silane"
-  - "Silane"
-  - "Silane"
-  - "Silane"
-  ordered: "1,14"
-- molecularformula: "Si2H6"
+  - ""
+  - ""
+  ordered: "51,25"
+- molecularformula: "Na3Sb"
   allnames:
-  - "disilane"
-  - "disilicane"
-  - "disilicoethane"
-  - "disilicon hexahydride"
-  - "disilicon hydride"
-  - "silicoethane"
+  - "sodium antimonide"
+  - "antimony, compound with sodium (1:3)"
+  - "trisodium antimonide"
   articles:
-  - "Disilane"
   - ""
   - ""
-  - "Disilane"
   - ""
-  - ""
-  ordered: "1,14"
-- molecularformula: "H8Si3"
+  ordered: "51,11"
+- molecularformula: "NdSb"
   allnames:
-  - "trisilane"
-  - "silicon octahydride"
-  - "silicopropane"
+  - "neodymium antimonide"
+  - "antimony, compound with neodymium (1:1)"
   articles:
-  - "Trisilane"
   - ""
   - ""
-  ordered: "1,14"
-- molecularformula: "H10Si4"
-  allnames:
-  - "tetrasilane"
-  articles:
-  - "Silanes"
-  ordered: "1,14"
-- molecularformula: "H12Si5"
+  ordered: "60,51"
+- molecularformula: "Ni3Sb"
   allnames:
-  - "pentasilane"
+  - "nickel antimonide"
+  - "antimony, compound with nickel (1:3)"
   articles:
-  - "Silanes"
-  ordered: "1,14"
-- molecularformula: "HfSi2"
+  - "Breithauptite"
+  - ""
+  ordered: "51,28"
+- molecularformula: "Sb2O3"
   allnames:
-  - "hafnium silicide"
+  - "antimony trioxide"
+  - "antimony(III) oxide"
+  - "antimony oxide"
+  - "antimony sesquioxide"
+  - "antimony white"
+  - "keto-ketostibanyloxy-stibane"
+  - "oxo-oxostibanyloxystibane"
   articles:
+  - "Antimony trioxide"
+  - "Antimony trioxide"
+  - "Antimony oxide"
+  - "Antimony trioxide"
+  - "Antimony trioxide"
   - ""
-  ordered: "14,72"
-- molecularformula: "HoSi2"
+  - ""
+  ordered: "51,8"
+- molecularformula: "O3Sb2"
   allnames:
-  - "holmium silicide"
+  - "antimony oxide"
+  - "antimony white"
+  - "antox"
   articles:
+  - "Antimony oxide"
+  - "Antimony trioxide"
   - ""
-  ordered: "14,67"
-- molecularformula: "SiH2I2"
+  ordered: "51,8"
+- molecularformula: "Sb2O4"
   allnames:
-  - "diiodosilane"
-  - "diiodosilicon"
+  - "antimony tetroxide"
+  - "antimony(III,V) oxide"
+  - "antimony oxide"
+  - "diantimony tetraoxide"
+  - "diketo-ketostibanyloxy-stiborane"
+  - "dioxo-oxostibanyloxystiborane"
   articles:
+  - "Antimony tetroxide"
+  - "Antimony tetroxide"
+  - "Antimony oxide"
+  - "Antimony tetroxide"
   - ""
   - ""
-  ordered: "14,53"
-- molecularformula: "SiI4"
+  ordered: "51,8"
+- molecularformula: "Sb2O5"
   allnames:
-  - "silicon tetraiodide"
-  - "silicon iodide"
-  - "silicon(IV) iodide"
-  - "tetraiodosilane"
+  - "antimony pentoxide"
+  - "antimonic oxide"
+  - "antimony(V) oxide"
+  - "antinomy(V) pentaoxide"
   articles:
-  - "Silicon tetraiodide"
-  - "Silicon tetraiodide"
-  - "Silicon tetraiodide"
-  - "Silicon tetraiodide"
-  ordered: "14,53"
-- molecularformula: "LaSi2"
+  - "Antimony pentoxide"
+  - ""
+  - "Antimony pentoxide"
+  - ""
+  ordered: "51,8"
+- molecularformula: "Rb3Sb"
   allnames:
-  - "lanthanum silicide"
+  - "rubidium antimonide"
+  - "antimony, compound with rubidium (1:3)"
   articles:
   - ""
-  ordered: "14,57"
-- molecularformula: "Mg2Si"
+  - ""
+  ordered: "51,37"
+- molecularformula: "Sb2S3"
   allnames:
-  - "magnesium silicide"
-  - "dimagnesium monosilicide"
-  - "dimagnesium silicide"
-  - "magnesium, compound with silicon (2:1)"
+  - "antimony(III)sulfide"
+  - "sulfanylidene-sulfanylidenestibanylsulfanylstibane"
+  - "thioxo-thioxostibanylsulfanyl-stibane"
+  - "thioxo-(thioxostibanylthio)stibane"
   articles:
-  - "Magnesium silicide"
+  - ""
   - ""
   - ""
   - ""
-  ordered: "12,14"
-- molecularformula: "MnSi2"
+  ordered: "51,16"
+- molecularformula: "Sb2S5"
   allnames:
-  - "manganese silicide"
+  - "antimony(V)sulfide"
+  - "antimony pentasulfide"
   articles:
   - ""
-  ordered: "14,25"
-- molecularformula: "Si3N4"
+  - "Antimony pentasulfide"
+  ordered: "51,16"
+- molecularformula: "SbAs"
   allnames:
-  - "silicon nitride"
-  - "silicon nitride powder"
-  - "trisilicon tetranitride"
+  - "antimony arsenide"
   articles:
-  - "Silicon nitride"
   - ""
-  - ""
-  ordered: "7,14"
-- molecularformula: "NbSi2"
+  ordered: "51,33"
+- molecularformula: "SbH3"
   allnames:
-  - "niobium silicide"
-  - "niobium(+2) cation; silanidylidynesilanide"
-  - "niobium disilicide"
+  - "stibine"
   articles:
-  - ""
+  - "Stibine"
+  ordered: "51,1"
+- molecularformula: "ScSb"
+  allnames:
+  - "scandium antimonide"
+  - "antimony, compound with scandium (1:1)"
+  articles:
   - ""
   - ""
-  ordered: "14,41"
-- molecularformula: "SiO"
+  ordered: "51,21"
+- molecularformula: "TbSb"
   allnames:
-  - "silicon monoxide"
-  - "oxonium ylidyne silanide"
-  - "oxosilylene"
-  - "silicon(II) oxide"
-  - "silicon oxide"
+  - "terbium antimonide"
+  - "antimony, compound with terbium (1:1)"
   articles:
-  - "Silicon monoxide"
   - ""
   - ""
-  - "Silicon monoxide"
-  - "Silicon oxide"
-  ordered: "8,14"
-- molecularformula: "SiO2"
+  ordered: "65,51"
+- molecularformula: "TmSb"
   allnames:
-  - "cristobalite"
-  - "crystalline silica"
-  - "crystalline silicon dioxide"
-  - "dioxosilane"
-  - "silicon(IV) oxide"
+  - "thullium monoantimonide"
+  - "antimony, compound with thulium (1:1)"
   articles:
-  - "Cristobalite"
-  - "Silicon dioxide"
   - ""
   - ""
-  - "Silicon dioxide"
-  ordered: "8,14"
-- molecularformula: "SiO2"
+  ordered: "69,51"
+- molecularformula: "YbSb"
   allnames:
-  - "quartz"
-  - "crystalline silica"
-  - "crystalline silicon dioxide"
-  - "dioxosilane"
-  - "sand"
-  - "silicon(IV) oxide"
+  - "ytterbium monoantimonide"
+  - "antimony, compound with ytterbium (1:1)"
   articles:
-  - "Quartz"
-  - "Silicon dioxide"
   - ""
   - ""
-  - "Sand"
-  - "Silicon dioxide"
-  ordered: "8,14"
-- molecularformula: "SiO2"
+  ordered: "51,70"
+- molecularformula: "Sb2Se3"
   allnames:
-  - "silicon dioxide"
-  - "amorphous silica"
-  - "diketosilane"
-  - "dioxosilane"
-  - "silica"
-  - "silicon dioxide amorphous"
-  - "silicon(IV) oxide"
-  - "vitreous silicon dioxide"
+  - "antimony(III) selenide"
+  - "antimony triselenide"
+  - "diantimony triselenide"
+  - "selanylideneantimony; selenium"
+  - "selenium; selenoxoantimony"
   articles:
-  - "Silicon dioxide"
-  - "Silicon dioxide"
+  - "Antimony triselenide"
+  - "Antimony triselenide"
   - ""
   - ""
-  - "Silicon dioxide"
   - ""
-  - "Silicon dioxide"
-  - ""
-  ordered: "8,14"
-- molecularformula: "SiO2"
+  ordered: "51,34"
+- molecularformula: "Sb2Te3"
   allnames:
-  - "tridymite"
-  - "crystalline silica"
-  - "crystalline silicon dioxide"
-  - "dioxosilane"
-  - "silicon(IV) oxide"
+  - "antimony(III)telluride"
+  - "tellanylideneantimony; tellurium"
+  - "tellurium; telluroxoantimony"
   articles:
-  - "Tridymite"
-  - "Silicon dioxide"
   - ""
   - ""
-  - "Silicon dioxide"
-  ordered: "8,14"
-- molecularformula: "PrSi2"
-  allnames:
-  - "praseodymium silicide"
-  articles:
   - ""
-  ordered: "14,59"
-- molecularformula: "PtSi"
+  ordered: "52,51"
+- molecularformula: "YSb"
   allnames:
-  - "platinum silicide"
+  - "yttrium antimonide"
   articles:
-  - "Platinum silicide"
-  ordered: "14,78"
-- molecularformula: "ReSi2"
+  - "Yttrium(III) antimonide"
+  ordered: "51,39"
+- molecularformula: "ZnSb"
   allnames:
-  - "rhenium(IV) silicide"
+  - "zinc antimonide"
   articles:
-  - ""
-  ordered: "14,75"
-- molecularformula: "S2Si"
+  - "Zinc antimonide"
+  ordered: "51,30"
+- molecularformula: "AgSbF6"
   allnames:
-  - "silicon disulfide"
-  - "silicon disulphide"
-  - "silicone disulfide"
-  - "silicon sulfide"
+  - "silver(I) hexafluoroantimonate"
+  - "antimonate(1-),hexafluoro-,silver(1+),(oC-6-11)-"
+  - "silver hexafluoroantimonate"
+  - "silver hexafluoroantimonate(1-)"
+  - "silver hexafluoroantimony"
   articles:
-  - "Silicon sulfide"
-  - ""
   - ""
-  - "Silicon sulfide"
-  ordered: "14,16"
-- molecularformula: "SiS"
-  allnames:
-  - "silicon monosulfide"
-  articles:
-  - "Silicon monosulfide"
-  ordered: "14,16"
-- molecularformula: "SiV3"
-  allnames:
-  - "trivanadium monosilicide"
-  - "trivanadium silicide"
-  - "vanadium silicide"
-  - "vanadium silicide (v3Si)"
-  articles:
   - ""
   - ""
   - ""
   - ""
-  ordered: "14,23"
-- molecularformula: "Si2Br6"
+  ordered: "51,47,9"
+- molecularformula: "(CH3)3Sb"
   allnames:
-  - "hexabromosilane"
+  - "trimethylantimony"
+  - "trimethylantimony(III)"
+  - "trimethylstibane"
+  - "trimethylstibine"
   articles:
+  - ""
   - ""
-  ordered: "14,35"
-- molecularformula: "Si2I6"
+  - "Trimethylstibine"
+  - "Trimethylstibine"
+  ordered: "51,6,1"
+- molecularformula: "C5H15Sb"
   allnames:
-  - "hexaiododisilane"
+  - "pentamethylstibine"
   articles:
   - ""
-  ordered: "14,53"
-- molecularformula: "TaSi2"
+  ordered: "1,6,51"
+- molecularformula: "(C6H5)3Sb"
   allnames:
-  - "tantalum silicide"
+  - "triphenylstibine"
+  - "antimony(III) triphenyl"
+  - "triphenylantimony"
+  - "triphenylstiban"
+  - "triphenylstibane"
   articles:
+  - "Triphenylstibine"
   - ""
-  ordered: "14,73"
-- molecularformula: "Si2Th"
+  - "Triphenylstibine"
+  - ""
+  - ""
+  ordered: "51,6,1"
+- molecularformula: "(C6H5)2SbC6H4CH3"
   allnames:
-  - "thorium silicide"
-  - "thorium disilicide"
+  - "diphenyl(o-tolyl)antimony(III)"
+  - "(2-methylphenyl)-di(phenyl)stibane"
   articles:
   - ""
   - ""
-  ordered: "14,90"
-- molecularformula: "TiSi2"
+  ordered: "51,6,1"
+- molecularformula: "HSbF6"
   allnames:
-  - "titanium silicide"
-  - "titanium disilicide"
+  - "fluoroantimonic acid"
+  - "antimony; hydron; hexafluoride"
   articles:
+  - "Fluoroantimonic acid"
   - ""
-  - "Titanium disilicide"
-  ordered: "14,22"
-- molecularformula: "Si2U"
+  ordered: "51,9,1"
+- molecularformula: "KSbF6"
   allnames:
-  - "uranium disilicide"
-  - "uranium silicide"
+  - "potassium hexafluoroantimonate(V)"
+  - "potassium hexafluoroantimony"
   articles:
-  - "Uranium disilicide"
   - ""
-  ordered: "14,92"
-- molecularformula: "VSi2"
+  - ""
+  ordered: "51,19,9"
+- molecularformula: "NaSbF6"
   allnames:
-  - "vanadium silicide"
-  - "monovanadium disilicide"
-  - "silanidylidynesilanide; vanadium(+2) cation"
-  - "vanadium disilicide"
+  - "sodium hexafluoroantimonate"
+  - "antimonate(1-),hexafluoro-,sodium, (oC-6-11)-"
+  - "potassium hexafluoroantimonate"
+  - "potassium hexafluoroantimonate min"
+  - "sodium antimony hexafluoride"
   articles:
+  - ""
   - ""
   - ""
   - ""
   - ""
-  ordered: "14,23"
-- molecularformula: "WSi2"
+  ordered: "51,11,9"
+- molecularformula: "LiSbF6"
   allnames:
-  - "tungsten silicide"
+  - "lithium hexafluoroantimonate"
   articles:
-  - "Tungsten disilicide"
-  ordered: "14,74"
-- molecularformula: "ZrSi2"
+  - ""
+  ordered: "3,51,9"
+- molecularformula: "O3S3Sb4"
   allnames:
-  - "zirconium silicide"
-  - "silanidylidynesilanide; zirconium(+2) cation"
-  - "zirconium disilicide"
+  - "antimony oxide sulfide"
+  - "antimony sulfur oxide"
   articles:
   - ""
   - ""
-  - "Zirconium disilicide"
-  ordered: "14,40"
-- molecularformula: "Si3Br8"
+  ordered: "16,8,51"
+- molecularformula: "O8Pb3Sb2"
   allnames:
-  - "octabromotrisilane"
+  - "lead(II) antimonate"
   articles:
   - ""
-  ordered: "14,35"
-- molecularformula: "Si4F10"
+  ordered: "82,51,8"
+- molecularformula: "O12S3Sb2"
   allnames:
-  - "decafluorotetrasilane"
+  - "antimony(III) sulfate"
+  - "antimonous sulfate"
+  - "antimony sulfate"
+  - "sulfuric acid, antimony salt"
   articles:
   - ""
-  ordered: "9,14"
-- molecularformula: "Si5H10"
-  allnames:
-  - "cyclopentasilane"
-  articles:
   - ""
-  ordered: "1,14"
-- molecularformula: "Si6H12"
+  - "Antimony sulfate"
+  - ""
+  ordered: "51,16,8"
+- molecularformula: "[Sb(CH3)2]2"
   allnames:
-  - "cyclohexasilane"
+  - "tetramethyldistibine"
   articles:
   - ""
-  ordered: "1,14"
-- molecularformula: "Si7H16"
+  ordered: "51,6,1"
+- molecularformula: "SbCl2F3"
   allnames:
-  - "heptasilane"
+  - "antimony(V) dichlorotrifluoride"
   articles:
   - ""
-  ordered: "1,14"
-- molecularformula: "SmSi2"
+  ordered: "17,9,51"
+- molecularformula: "SbOCl"
   allnames:
-  - "samarium silicide"
+  - "antimony(III) oxychloride"
   articles:
   - ""
-  ordered: "14,62"
-- molecularformula: "SrSi2"
+  ordered: "51,17,8"
+- molecularformula: "Sb(OH)3"
   allnames:
-  - "strontium silicide"
+  - "trihydroxyantimonite(iii)"
   articles:
   - ""
-  ordered: "14,38"
-- molecularformula: "TbSi2"
+  ordered: "51,8,1"
+- molecularformula: "SbPO4"
   allnames:
-  - "terbium silicide"
+  - "antimony(III) phosphate"
   articles:
-  - "Terbium silicide"
-  ordered: "14,65"
-- molecularformula: "YbSi2"
+  - ""
+  ordered: "15,8,51"
+- molecularformula: "As2H6O6Sb2"
   allnames:
-  - "ytterbium silicide"
+  - "antimony oxide mixed with arsenic oxide"
+  - "antimony oxide (Sb2O3),mixed with arsenic oxide (as2O3)"
   articles:
   - ""
-  ordered: "14,70"
-- molecularformula: "3Al2O3·2SiO2"
+  - ""
+  ordered: "1,51,33,8"
+- molecularformula: "Sb(OC2H5)3"
   allnames:
-  - "aluminum silicate"
-  - "diketosilane; keto-ketoalumanyloxy-alumane"
-  - "dioxosilane; oxo-oxoalumanyloxyalumane"
-  - "mullite"
+  - "antimony(III)ethoxide"
+  - "antimony; ethanol"
   articles:
-  - "Aluminium silicate"
   - ""
   - ""
-  - "Mullite"
-  ordered: "8,13,14"
-- molecularformula: "BaSiF6"
+  ordered: "51,8,6,1"
+- molecularformula: "Sb(CH3)3Br2"
   allnames:
-  - "barium hexafluorosilicate"
-  - "barium(+2) cation; hexafluorosilicon"
+  - "trimethylantimony(V)bromide"
+  - "dibromo-trimethylstiborane"
   articles:
   - ""
   - ""
-  ordered: "9,14,56"
-- molecularformula: "BaSiO3"
+  ordered: "1,51,35,6"
+- molecularformula: "Sb(CH3)3Cl2"
   allnames:
-  - "barium metasilicate"
-  - "barium(+2) cation; dioxido-oxosilane"
-  - "barium(+2) cation; keto-dioxido-silane"
-  - "barium silicate"
-  - "barium silicon oxide"
-  - "silicic acid, barium salt (1:1)"
+  - "trimethylantimony(V)dichloride"
+  - "dichloro-trimethyl-stiborane"
   articles:
   - ""
   - ""
+  ordered: "51,17,6,1"
+- molecularformula: "(CH3CO2)3Sb"
+  allnames:
+  - "antimony(III) acetate"
+  - "acetic acid diacetoxystibanyl ester"
+  - "diacetoxystibanyl acetate"
+  - "diacetyloxystibanyl acetate"
+  - "diacetyloxystibanyl ethanoate"
+  articles:
+  - "Antimony(III) acetate"
   - ""
   - ""
   - ""
   - ""
-  ordered: "8,14,56"
-- molecularformula: "Be2O4Si"
+  ordered: "51,8,6,1"
+- molecularformula: "[(CH3)2N]3Sb"
   allnames:
-  - "diberyllium monosilicate"
-  - "beryllium orthosilicate"
-  - "beryllium silicate"
-  - "beryllium silicic acid"
-  - "silicic acid, beryllium salt"
+  - "tris(dimethylamido)antimony(III)"
+  - "bis(dimethylamino)stibanyl-dimethyl-amine"
+  - "N-bis(dimethylamino)stibanyl-N-methylmethanamine"
+  - "tris(dimethylamino)antimony(III)"
   articles:
   - ""
-  - "Phenakite"
   - ""
   - ""
   - ""
-  ordered: "4,8,14"
-- molecularformula: "BrCl3Si"
+  ordered: "51,7,6,1"
+- molecularformula: "Sb(CH3CH(OH)COO)3"
   allnames:
-  - "bromotrichlorosilane"
+  - "antimony lactate"
+  - "antimony trilactate"
+  - "lactic acid, antimony salt"
+  - "propanoic acid, 2-hydroxy-,antimony(3+) salt (3:1)"
   articles:
   - ""
-  ordered: "14,17,35"
-- molecularformula: "Br2Cl2Si"
-  allnames:
-  - "dibromodichlorosilane"
-  articles:
   - ""
-  ordered: "14,17,35"
-- molecularformula: "Br2H2Si"
+  - ""
+  - ""
+  ordered: "51,8,6,1"
+- molecularformula: "Sb(OCH(CH3)2)3"
   allnames:
-  - "dibromosilane"
+  - "antimony(III)isopropoxide"
+  - "triisopropoxystibane"
+  - "tri(propan-2-yloxy)stibane"
   articles:
+  - ""
+  - ""
   - ""
-  ordered: "1,14,35"
-- molecularformula: "Br3ClSi"
+  ordered: "51,8,6,1"
+- molecularformula: "Sb(OC3H7)3"
   allnames:
-  - "tribromochlorosilane"
+  - "antimony(III)propoxide"
+  - "tripropoxystibane"
   articles:
   - ""
-  ordered: "14,17,35"
-- molecularformula: "Cl3CSiCl3"
+  - ""
+  ordered: "6,1,51,8"
+- molecularformula: "Sb(OC4H9)3"
   allnames:
-  - "trichloro(trichloromethyl)silane"
-  - "trichloromethyltrichlorosilanebyweightintoluene"
+  - "antimony(III)butoxide"
+  - "tributoxystibane"
   articles:
   - ""
   - ""
-  ordered: "6,14,17"
-- molecularformula: "CH3SiH3"
+  ordered: "51,8,6,1"
+- molecularformula: "[CH3(CH2)3]4SbBr"
   allnames:
-  - "methylsilane"
-  - "methylsilicon"
+  - "tetrabutylantimony(V)bromide"
+  - "bromo-tetrabutylstiborane"
   articles:
-  - "Methylsilane"
   - ""
-  ordered: "1,6,14"
-- molecularformula: "(CH4Si)n"
+  - ""
+  ordered: "51,35,6,1"
+- molecularformula: "(C6H5)3SbCl2"
   allnames:
-  - "poly(carbodihydridosilane)"
-  - "HPCS"
-  - "hydridopolycarbosilane"
-  - "methylenesilane"
-  - "methylidenesilane"
+  - "triphenylantimony(V)dichloride"
+  - "dichlorotriphenylantimony(V) triphenylstibine dichloride"
+  - "dichloro-tri(phenyl)stiborane"
   articles:
-  - ""
-  - "High Productivity Computing Systems"
   - ""
   - ""
   - ""
-  ordered: "1,6,14"
-- molecularformula: "C2Cl8Si"
+  ordered: "51,17,6,1"
+- molecularformula: "(CH3CO2)2Sb(C6H5)3"
   allnames:
-  - "dichlorobis(trichloromethyl)silane"
+  - "triphenylantimony(V)diacetate"
+  - "acetic acid (acetoxy-tri(phenyl)stiboranyl)ester"
+  - "(acetoxy-tri(phenyl)stiboranyl)acetate"
+  - "(acetyloxy-tri(phenyl)stiboranyl)acetate"
+  - "(acetyloxy-tri(phenyl)stiboranyl)ethanoate"
   articles:
   - ""
-  ordered: "6,14,17"
-- molecularformula: "(C2H6Si)n"
-  allnames:
-  - "polycarbomethylsilane"
-  - "methyl-methylene-silane"
-  - "methyl-methylidenesilane"
-  - "poly[(methylsilylene)methylene]polycarbosilane"
-  articles:
   - ""
   - ""
   - ""
   - ""
-  ordered: "1,6,14"
-- molecularformula: "(C2H5)2SiH2"
+  ordered: "1,51,8,6"
+- molecularformula: "(C6H5)4SbBr"
   allnames:
-  - "diethylsilane"
-  - "diethylsilicon"
+  - "tetraphenylantimony(V)bromide"
+  - "tetra(phenyl)stibanium bromide"
+  - "tetraphenylstibonium bromide"
   articles:
   - ""
   - ""
-  ordered: "1,6,14"
-- molecularformula: "CH3SiH2CH2CH2SiH2CH3"
+  - ""
+  ordered: "1,51,35,6"
+- molecularformula: "(C6H5)4SbOCH3"
   allnames:
-  - "1,2-ethanediylbis(methylsilane)"
+  - "tetraphenylantimony(V)methoxide"
+  - "methoxy-tetra(phenyl)stiborane"
   articles:
+  - ""
   - ""
-  ordered: "1,6,14"
-- molecularformula: "CH3CH2SiH(CH3)2"
+  ordered: "51,8,6,1"
+- molecularformula: "CH3CO2Sb(C6H5)4"
   allnames:
-  - "dimethylethylsilane"
-  - "ethyldimethylsilane"
-  - "ethyl-dimethylsilicon"
+  - "tetraphenylantimony(V)acetate"
+  - "acetic acid tetra(phenyl)stiboranyl ester"
+  - "tetra(phenyl)stiboranyl acetate"
+  - "tetra(phenyl)stiboranyl ethanoate"
   articles:
   - ""
   - ""
   - ""
-  ordered: "1,6,14"
-- molecularformula: "Si(CH3)4"
-  allnames:
-  - "tetramethylsilane"
-  articles:
-  - "Tetramethylsilane"
-  ordered: "1,6,14"
-- molecularformula: "(CH3)2SiHSiH(CH3)2"
+  - ""
+  ordered: "51,8,6,1"
+- molecularformula: "(C6H5)3Sb(O2CC6H5)2"
   allnames:
-  - "1,1,2,2-tetramethyldisilane"
-  - "dimethylsilyl-dimethylsilane"
+  - "triphenylantimony(V)dibenzoate"
+  - "benzoic acid (benzoyloxy-tri(phenyl)stiboranyl)ester"
+  - "(benzoyloxy-tri(phenyl)stiboranyl)benzoate"
+  - "(tri(phenyl)-phenylcarbonyloxy-stiboranyl)benzoate"
   articles:
   - ""
   - ""
-  ordered: "1,6,14"
-- molecularformula: "(CH3)3SiC≡CH"
+  - ""
+  - ""
+  ordered: "51,8,6,1"
+- molecularformula: "HSbF6·6H2O"
   allnames:
-  - "trimethylsilylacetylene"
-  - "ethynyltrimethylsilane"
+  - "fluoroantimonic acid hexahydrate"
+  - "hexafluoroantimony; hydron; hexahydrate"
   articles:
-  - "Trimethylsilylacetylene"
   - ""
-  ordered: "1,6,14"
-- molecularformula: "(CH3)3SiCHCH2"
+  - ""
+  ordered: "1,51,9,8"
+- molecularformula: "NOSbF6"
   allnames:
-  - "vinyltrimethylsilane"
-  - "ethenyltrimethylsilane"
-  - "(trimethylsilyl)ethylene"
-  - "trimethyl(vinyl)silane"
+  - "nitrosonium hexafluoroantimonate"
+  - "azanylidyneoxidanium; hexafluoroantimony"
+  - "hexafluoroantimony; nitridooxonium"
+  - "hexafluoroantimony; nitrilooxonium"
   articles:
   - ""
   - ""
   - ""
   - ""
-  ordered: "1,6,14"
-- molecularformula: "(C2H5)2SiHCH3"
+  ordered: "51,9,8,7"
+- molecularformula: "KSb(OH)6"
   allnames:
-  - "diethylmethylsilane"
-  - "diethyl-methylsilicon"
+  - "potassium hexahydroxyantimonate"
+  - "potassium antimonate"
+  - "potassium antimonate,hydrated"
+  - "potassium antimony(+3) cation hexahydroxide"
+  - "potassium pyroantimonate"
+  - "potassium pyroantimonate trihydrate"
   articles:
   - ""
   - ""
-  ordered: "1,6,14"
-- molecularformula: "(CH3)2CHSiH(CH3)2"
-  allnames:
-  - "dimethylisopropylsilane"
-  - "dimethyl-propan-2-ylsilicon"
-  - "isopropyl-dimethyl-silicon"
-  articles:
   - ""
   - ""
   - ""
-  ordered: "1,6,14"
-- molecularformula: "C5H14Si"
+  - ""
+  ordered: "51,19,8,1"
+- molecularformula: "KrFSb2F11"
   allnames:
-  - "ethyl-trimethyl-silane"
+  - "krypton fluoride hexafluoroantimonate"
   articles:
   - ""
-  ordered: "1,6,14"
-- molecularformula: "(CH3)3SiSi(CH3)2H"
+  ordered: "51,36,9,9"
+- molecularformula: "NH4SbF4"
   allnames:
-  - "pentamethyldisilane"
-  - "dimethylsilyl-trimethylsilane"
+  - "ammonium tetrafluoroantimonate"
   articles:
   - ""
+  ordered: "1,51,9,7"
+- molecularformula: "NO2SbF6"
+  allnames:
+  - "nitronium hexafluoroantimonate"
+  articles:
   - ""
-  ordered: "1,6,14"
-- molecularformula: "C6H5SiH3"
+  ordered: "51,9,8,7"
+- molecularformula: "XeFSb2F11"
   allnames:
-  - "phenylsilane"
-  - "phenylsilicon"
+  - "xenon fluoride undecafluoroantimonate"
   articles:
-  - "Phenylsilane"
   - ""
-  ordered: "1,6,14"
-- molecularformula: "CH3C≡CSi(CH3)3"
+  ordered: "54,51,9,9"
+- molecularformula: "XeF3SbF6"
   allnames:
-  - "1-(trimethylsilyl)-1-propyne"
-  - "1-(trimethylsilyl)prop-1-yne"
-  - "1-(trimethylsilyl)propyne"
-  - "trimethyl-1-propynylsilane"
-  - "trimethyl-prop-1-ynylsilane"
+  - "xenon fluoride hexafluoroantimonate"
   articles:
   - ""
+  ordered: "54,51,9,9"
+- molecularformula: "XeF3Sb2F11"
+  allnames:
+  - "xenon trifluoride undecafluoroantimonate"
+  articles:
   - ""
+  ordered: "54,51,9,9"
+- molecularformula: "(C2H5)3OSbCl6"
+  allnames:
+  - "triethyloxonium hexachloroantimonate"
+  - "hexachloroantimony; triethyloxidanium"
+  - "hexachloroantimony; triethyloxonium"
+  articles:
   - ""
   - ""
   - ""
-  ordered: "1,6,14"
-- molecularformula: "(H2C=CH)2Si(CH3)2"
+  ordered: "51,17,8,6,1"
+- molecularformula: "C8H4BaO12Sb2"
   allnames:
-  - "divinyldimethylsilane"
-  - "di(ethenyl)-dimethylsilane"
-  - "dimethyldivinylsilane"
-  - "silane, diethenyldimethyl-"
+  - "antimony barium tartrate"
   articles:
-  - ""
-  - ""
   - ""
+  ordered: "51,8,6,1,56"
+- molecularformula: "C8H4K2O12Sb2·xH2O"
+  allnames:
+  - "potassium antimony(III)tartrate hydrate"
+  - "antimony potassium tartrate"
+  articles:
   - ""
-  ordered: "1,6,14"
-- molecularformula: "HC≡CCH2Si(CH3)3"
+  - "Antimony potassium tartrate"
+  ordered: "51,19,8,6,1"
+- molecularformula: "C12H35Na3O26Sb2"
+  allnames:
+  - "sodium stibogluconate"
+  articles:
+  - "Sodium stibogluconate"
+  ordered: "1,51,11,8,6"
+- molecularformula: "C20H15OP"
   allnames:
-  - "trimethyl(propargyl)silane"
-  - "2-propynyl-trimethylsilane"
-  - "3-(trimethylsilyl)propyne"
-  - "trimethyl-prop-2-ynylsilane"
+  - "(triphenylphosphoranylidene)ketene"
+  - "[4-(benzoylamino)phenyl]stibonic acid"
+  - "Bestmann ylide"
+  - "ketenylidene(triphenyl)phosphorane"
+  - "(triphenylphosphoranylidene)ethenone"
   articles:
   - ""
   - ""
   - ""
   - ""
-  ordered: "1,6,14"
-- molecularformula: "H2C=CHCH2Si(CH3)3"
+  - ""
+  ordered: "6,1,51,8,7"
+- molecularformula: "(C24H20S2)(C36H30S3)(SbF6)3"
   allnames:
-  - "allyltrimethylsilane"
-  - "3-(trimethylsilyl)-1-propene"
-  - "3-(trimethylsilyl)propene"
-  - "silane, trimethyl-2-propenyl-"
-  - "trimethylallylsilane"
-  - "trimethyl-prop-2-enylsilane"
+  - "triarylsulfonium hexafluoroantimonate salts"
+  - "diphenyl-(4-phenylsulfanylphenyl)sulfonium; [4-(4-diphenylsulfoniophenyl)sulfanylphenyl]-diphenyl-sulfonium;\
+    \ hexafluoroantimony"
   articles:
-  - ""
-  - ""
   - ""
   - ""
+  ordered: "16,9,6,1,51"
+- molecularformula: "HSO3F·SbF5"
+  allnames:
+  - "magic acid"
+  - "fluorosulfuric acid-antimony pentafluoride 1:1"
+  - "pentafluorostiborane; sulfurofluoridic acid"
+  articles:
+  - "Magic acid"
   - ""
   - ""
-  ordered: "1,6,14"
-- molecularformula: "(CH3)3CSiH(CH3)2"
+  ordered: "51,16,8,9,1"
+- molecularformula: "Na3SbS4·9H2O"
   allnames:
-  - "tert-butyldimethylsilane"
-  - "tert-butyl-dimethylsilicon"
+  - "sodium thioantimonate nonahydrate"
   articles:
   - ""
+  ordered: "51,16,11,8,1"
+- molecularformula: "(BrC6H4)3NSbCl6"
+  allnames:
+  - "tris(4-bromophenyl)ammoniumyl hexachloroantimonate"
+  articles:
   - ""
-  ordered: "1,6,14"
+  ordered: "51,35,17,7,6,1"
 counts:
-  "1": 948
-  "3": 9
-  "4": 3
-  "5": 10
-  "6": 913
-  "7": 174
-  "8": 533
-  "9": 93
-  "11": 15
-  "12": 12
-  "13": 9
-  "14": 1055
-  "15": 17
-  "16": 47
-  "17": 250
+  "1": 39
+  "3": 2
+  "6": 30
+  "7": 6
+  "8": 34
+  "9": 18
+  "11": 4
+  "12": 1
+  "13": 1
+  "15": 1
+  "16": 7
+  "17": 8
   "19": 5
-  "20": 5
   "21": 1
-  "22": 2
-  "23": 2
-  "24": 2
-  "25": 3
-  "26": 6
-  "27": 3
-  "29": 4
-  "30": 2
-  "32": 1
+  "24": 1
+  "25": 2
+  "26": 1
+  "27": 1
+  "28": 1
+  "29": 1
+  "30": 1
+  "31": 1
+  "33": 2
   "34": 1
-  "35": 36
-  "38": 1
+  "35": 5
+  "36": 1
+  "37": 1
   "39": 1
-  "40": 2
-  "41": 1
-  "42": 1
-  "48": 2
-  "50": 3
-  "53": 10
-  "56": 5
-  "57": 2
-  "58": 2
-  "59": 2
+  "47": 1
+  "48": 1
+  "49": 1
+  "51": 102
+  "52": 1
+  "53": 1
+  "54": 3
+  "55": 1
+  "56": 2
+  "57": 1
   "60": 1
-  "62": 2
-  "63": 2
-  "64": 2
-  "65": 2
+  "64": 1
+  "65": 1
   "66": 1
-  "67": 2
+  "67": 1
   "68": 1
   "69": 1
   "70": 1
-  "72": 3
-  "73": 1
-  "74": 2
-  "75": 2
-  "78": 3
-  "80": 1
-  "82": 4
-  "90": 2
-  "92": 1
-totalresults: 1055
+  "71": 1
+  "82": 1
+  "83": 1
+totalresults: 102
 formula: null
