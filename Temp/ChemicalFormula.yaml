@@ -1,0 +1,941 @@
+main:
+matches:
+- molecularformula: "Si"
+  allnames:
+  - "silicon"
+  - "silicon metal"
+  articles:
+  - "Silicon"
+  - ""
+  ordered: "14"
+- molecularformula: "MoSi2"
+  allnames:
+  - "molybdenum disilicide"
+  - "molybdenum silicide"
+  - "Ms"
+  - "silanidylidynesilanide"
+  articles:
+  - "Molybdenum disilicide"
+  - "Molybdenum disilicide"
+  - "MS"
+  - ""
+  ordered: "14"
+- molecularformula: "SiB4"
+  allnames:
+  - "silicon tetraboride"
+  - "1-sila-2,3,4,5-tetraboracyclopenta-1,3,5-triene"
+  articles:
+  - ""
+  - ""
+  ordered: "5,14"
+- molecularformula: "SiB6"
+  allnames:
+  - "silicon hexaboride"
+  articles:
+  - ""
+  ordered: "5,14"
+- molecularformula: "BaSi2"
+  allnames:
+  - "barium silicide"
+  articles:
+  - ""
+  ordered: "14,56"
+- molecularformula: "SiBr4"
+  allnames:
+  - "silicon tetrabromide"
+  - "silicon(IV) bromide"
+  - "tetrabromosilane"
+  articles:
+  - "Silicon tetrabromide"
+  - "Silicon tetrabromide"
+  - "Silicon tetrabromide"
+  ordered: "14,35"
+- molecularformula: "SiC"
+  allnames:
+  - "silicon carbide"
+  - "carborundum"
+  - "methanidylidynesilicon"
+  - "silicon monocarbide"
+  - "silundum"
+  articles:
+  - "Silicon carbide"
+  - "Silicon carbide"
+  - ""
+  - ""
+  - ""
+  ordered: "6,14"
+- molecularformula: "CaSi"
+  allnames:
+  - "calcium silicide"
+  - "calcium monosilicide"
+  - "calcium silicon"
+  articles:
+  - "Calcium silicide"
+  - ""
+  - ""
+  ordered: "14,20"
+- molecularformula: "CeSi2"
+  allnames:
+  - "cerium silicide"
+  - "cerium disilicide"
+  articles:
+  - ""
+  - ""
+  ordered: "14,58"
+- molecularformula: "Cl2SiH2"
+  allnames:
+  - "dichlorosilane"
+  - "dichlorosilicon"
+  articles:
+  - "Dichlorosilane"
+  - ""
+  ordered: "14,17"
+- molecularformula: "SiHCl3"
+  allnames:
+  - "trichlorosilane"
+  - "trichlorosilicon"
+  articles:
+  - "Trichlorosilane"
+  - ""
+  ordered: "14,17"
+- molecularformula: "SiCl4"
+  allnames:
+  - "silicon tetrachloride"
+  - "silicon chloride"
+  - "silicon(IV) chloride"
+  - "tetrachlorosilane"
+  articles:
+  - "Silicon tetrachloride"
+  - "Silicon tetrachloride"
+  - "Silicon tetrachloride"
+  - "Silicon tetrachloride"
+  ordered: "14,17"
+- molecularformula: "(SiCl3)2"
+  allnames:
+  - "hexachlorodisilane"
+  - "trichloro-trichlorosilylsilane"
+  articles:
+  - ""
+  - ""
+  ordered: "14,17"
+- molecularformula: "Cl8Si3"
+  allnames:
+  - "octachlorotrisilane"
+  articles:
+  - ""
+  ordered: "14,17"
+- molecularformula: "CoSi2"
+  allnames:
+  - "cobalt silicide"
+  articles:
+  - ""
+  ordered: "14,27"
+- molecularformula: "CrSi2"
+  allnames:
+  - "chromium silicide"
+  - "chromium(+2) cation; silanidylidynesilanide"
+  - "chromous silanidylidynesilanide"
+  articles:
+  - ""
+  - ""
+  - ""
+  ordered: "14,24"
+- molecularformula: "Cu5Si"
+  allnames:
+  - "copper silicide"
+  articles:
+  - "Copper silicide"
+  ordered: "14,29"
+- molecularformula: "SiD4"
+  allnames:
+  - "deuterated silane"
+  - "silane-d4"
+  - "tetradeuteriosilane"
+  articles:
+  - ""
+  - ""
+  - ""
+  ordered: "1,14"
+- molecularformula: "DySi2"
+  allnames:
+  - "dysprosium silicide"
+  articles:
+  - ""
+  ordered: "14,66"
+- molecularformula: "ErSi2"
+  allnames:
+  - "erbium silicide"
+  articles:
+  - ""
+  ordered: "14,68"
+- molecularformula: "EuSi2"
+  allnames:
+  - "europium silicide"
+  articles:
+  - ""
+  ordered: "14,63"
+- molecularformula: "SiF4"
+  allnames:
+  - "silicon tetrafluoride"
+  - "perfluorosilane"
+  - "silicon fluoride"
+  - "silicon(IV) fluoride"
+  - "tetrafluorosilane"
+  articles:
+  - "Silicon tetrafluoride"
+  - ""
+  - "Silicon tetrafluoride"
+  - "Silicon tetrafluoride"
+  - "Silicon tetrafluoride"
+  ordered: "9,14"
+- molecularformula: "F6Si2"
+  allnames:
+  - "hexafluorodisilane"
+  articles:
+  - ""
+  ordered: "9,14"
+- molecularformula: "F8Si3"
+  allnames:
+  - "octafluorotrisilane"
+  articles:
+  - ""
+  ordered: "9,14"
+- molecularformula: "FeSi"
+  allnames:
+  - "iron silicide"
+  articles:
+  - ""
+  ordered: "14,26"
+- molecularformula: "FeSi2"
+  allnames:
+  - "iron disilicide"
+  articles:
+  - ""
+  ordered: "14,26"
+- molecularformula: "GdSi2"
+  allnames:
+  - "gadolinium silicide"
+  articles:
+  - ""
+  ordered: "14,64"
+- molecularformula: "SiH4"
+  allnames:
+  - "silane"
+  - "monosilane"
+  - "silicane"
+  - "silicon tetrahydride"
+  articles:
+  - "Silane"
+  - "Silane"
+  - "Silane"
+  - "Silane"
+  ordered: "1,14"
+- molecularformula: "Si2H6"
+  allnames:
+  - "disilane"
+  - "disilicane"
+  - "disilicoethane"
+  - "disilicon hexahydride"
+  - "disilicon hydride"
+  - "silicoethane"
+  articles:
+  - "Disilane"
+  - ""
+  - ""
+  - "Disilane"
+  - ""
+  - ""
+  ordered: "1,14"
+- molecularformula: "H8Si3"
+  allnames:
+  - "trisilane"
+  - "silicon octahydride"
+  - "silicopropane"
+  articles:
+  - "Trisilane"
+  - ""
+  - ""
+  ordered: "1,14"
+- molecularformula: "H10Si4"
+  allnames:
+  - "tetrasilane"
+  articles:
+  - "Silanes"
+  ordered: "1,14"
+- molecularformula: "H12Si5"
+  allnames:
+  - "pentasilane"
+  articles:
+  - "Silanes"
+  ordered: "1,14"
+- molecularformula: "HfSi2"
+  allnames:
+  - "hafnium silicide"
+  articles:
+  - ""
+  ordered: "14,72"
+- molecularformula: "HoSi2"
+  allnames:
+  - "holmium silicide"
+  articles:
+  - ""
+  ordered: "14,67"
+- molecularformula: "SiH2I2"
+  allnames:
+  - "diiodosilane"
+  - "diiodosilicon"
+  articles:
+  - ""
+  - ""
+  ordered: "14,53"
+- molecularformula: "SiI4"
+  allnames:
+  - "silicon tetraiodide"
+  - "silicon iodide"
+  - "silicon(IV) iodide"
+  - "tetraiodosilane"
+  articles:
+  - "Silicon tetraiodide"
+  - "Silicon tetraiodide"
+  - "Silicon tetraiodide"
+  - "Silicon tetraiodide"
+  ordered: "14,53"
+- molecularformula: "LaSi2"
+  allnames:
+  - "lanthanum silicide"
+  articles:
+  - ""
+  ordered: "14,57"
+- molecularformula: "Mg2Si"
+  allnames:
+  - "magnesium silicide"
+  - "dimagnesium monosilicide"
+  - "dimagnesium silicide"
+  - "magnesium, compound with silicon (2:1)"
+  articles:
+  - "Magnesium silicide"
+  - ""
+  - ""
+  - ""
+  ordered: "12,14"
+- molecularformula: "MnSi2"
+  allnames:
+  - "manganese silicide"
+  articles:
+  - ""
+  ordered: "14,25"
+- molecularformula: "Si3N4"
+  allnames:
+  - "silicon nitride"
+  - "silicon nitride powder"
+  - "trisilicon tetranitride"
+  articles:
+  - "Silicon nitride"
+  - ""
+  - ""
+  ordered: "7,14"
+- molecularformula: "NbSi2"
+  allnames:
+  - "niobium silicide"
+  - "niobium(+2) cation; silanidylidynesilanide"
+  - "niobium disilicide"
+  articles:
+  - ""
+  - ""
+  - ""
+  ordered: "14,41"
+- molecularformula: "SiO"
+  allnames:
+  - "silicon monoxide"
+  - "oxonium ylidyne silanide"
+  - "oxosilylene"
+  - "silicon(II) oxide"
+  - "silicon oxide"
+  articles:
+  - "Silicon monoxide"
+  - ""
+  - ""
+  - "Silicon monoxide"
+  - "Silicon oxide"
+  ordered: "8,14"
+- molecularformula: "SiO2"
+  allnames:
+  - "cristobalite"
+  - "crystalline silica"
+  - "crystalline silicon dioxide"
+  - "dioxosilane"
+  - "silicon(IV) oxide"
+  articles:
+  - "Cristobalite"
+  - "Silicon dioxide"
+  - ""
+  - ""
+  - "Silicon dioxide"
+  ordered: "8,14"
+- molecularformula: "SiO2"
+  allnames:
+  - "quartz"
+  - "crystalline silica"
+  - "crystalline silicon dioxide"
+  - "dioxosilane"
+  - "sand"
+  - "silicon(IV) oxide"
+  articles:
+  - "Quartz"
+  - "Silicon dioxide"
+  - ""
+  - ""
+  - "Sand"
+  - "Silicon dioxide"
+  ordered: "8,14"
+- molecularformula: "SiO2"
+  allnames:
+  - "silicon dioxide"
+  - "amorphous silica"
+  - "diketosilane"
+  - "dioxosilane"
+  - "silica"
+  - "silicon dioxide amorphous"
+  - "silicon(IV) oxide"
+  - "vitreous silicon dioxide"
+  articles:
+  - "Silicon dioxide"
+  - "Silicon dioxide"
+  - ""
+  - ""
+  - "Silicon dioxide"
+  - ""
+  - "Silicon dioxide"
+  - ""
+  ordered: "8,14"
+- molecularformula: "SiO2"
+  allnames:
+  - "tridymite"
+  - "crystalline silica"
+  - "crystalline silicon dioxide"
+  - "dioxosilane"
+  - "silicon(IV) oxide"
+  articles:
+  - "Tridymite"
+  - "Silicon dioxide"
+  - ""
+  - ""
+  - "Silicon dioxide"
+  ordered: "8,14"
+- molecularformula: "PrSi2"
+  allnames:
+  - "praseodymium silicide"
+  articles:
+  - ""
+  ordered: "14,59"
+- molecularformula: "PtSi"
+  allnames:
+  - "platinum silicide"
+  articles:
+  - "Platinum silicide"
+  ordered: "14,78"
+- molecularformula: "ReSi2"
+  allnames:
+  - "rhenium(IV) silicide"
+  articles:
+  - ""
+  ordered: "14,75"
+- molecularformula: "S2Si"
+  allnames:
+  - "silicon disulfide"
+  - "silicon disulphide"
+  - "silicone disulfide"
+  - "silicon sulfide"
+  articles:
+  - "Silicon sulfide"
+  - ""
+  - ""
+  - "Silicon sulfide"
+  ordered: "14,16"
+- molecularformula: "SiS"
+  allnames:
+  - "silicon monosulfide"
+  articles:
+  - "Silicon monosulfide"
+  ordered: "14,16"
+- molecularformula: "SiV3"
+  allnames:
+  - "trivanadium monosilicide"
+  - "trivanadium silicide"
+  - "vanadium silicide"
+  - "vanadium silicide (v3Si)"
+  articles:
+  - ""
+  - ""
+  - ""
+  - ""
+  ordered: "14,23"
+- molecularformula: "Si2Br6"
+  allnames:
+  - "hexabromosilane"
+  articles:
+  - ""
+  ordered: "14,35"
+- molecularformula: "Si2I6"
+  allnames:
+  - "hexaiododisilane"
+  articles:
+  - ""
+  ordered: "14,53"
+- molecularformula: "TaSi2"
+  allnames:
+  - "tantalum silicide"
+  articles:
+  - ""
+  ordered: "14,73"
+- molecularformula: "Si2Th"
+  allnames:
+  - "thorium silicide"
+  - "thorium disilicide"
+  articles:
+  - ""
+  - ""
+  ordered: "14,90"
+- molecularformula: "TiSi2"
+  allnames:
+  - "titanium silicide"
+  - "titanium disilicide"
+  articles:
+  - ""
+  - "Titanium disilicide"
+  ordered: "14,22"
+- molecularformula: "Si2U"
+  allnames:
+  - "uranium disilicide"
+  - "uranium silicide"
+  articles:
+  - "Uranium disilicide"
+  - ""
+  ordered: "14,92"
+- molecularformula: "VSi2"
+  allnames:
+  - "vanadium silicide"
+  - "monovanadium disilicide"
+  - "silanidylidynesilanide; vanadium(+2) cation"
+  - "vanadium disilicide"
+  articles:
+  - ""
+  - ""
+  - ""
+  - ""
+  ordered: "14,23"
+- molecularformula: "WSi2"
+  allnames:
+  - "tungsten silicide"
+  articles:
+  - "Tungsten disilicide"
+  ordered: "14,74"
+- molecularformula: "ZrSi2"
+  allnames:
+  - "zirconium silicide"
+  - "silanidylidynesilanide; zirconium(+2) cation"
+  - "zirconium disilicide"
+  articles:
+  - ""
+  - ""
+  - "Zirconium disilicide"
+  ordered: "14,40"
+- molecularformula: "Si3Br8"
+  allnames:
+  - "octabromotrisilane"
+  articles:
+  - ""
+  ordered: "14,35"
+- molecularformula: "Si4F10"
+  allnames:
+  - "decafluorotetrasilane"
+  articles:
+  - ""
+  ordered: "9,14"
+- molecularformula: "Si5H10"
+  allnames:
+  - "cyclopentasilane"
+  articles:
+  - ""
+  ordered: "1,14"
+- molecularformula: "Si6H12"
+  allnames:
+  - "cyclohexasilane"
+  articles:
+  - ""
+  ordered: "1,14"
+- molecularformula: "Si7H16"
+  allnames:
+  - "heptasilane"
+  articles:
+  - ""
+  ordered: "1,14"
+- molecularformula: "SmSi2"
+  allnames:
+  - "samarium silicide"
+  articles:
+  - ""
+  ordered: "14,62"
+- molecularformula: "SrSi2"
+  allnames:
+  - "strontium silicide"
+  articles:
+  - ""
+  ordered: "14,38"
+- molecularformula: "TbSi2"
+  allnames:
+  - "terbium silicide"
+  articles:
+  - "Terbium silicide"
+  ordered: "14,65"
+- molecularformula: "YbSi2"
+  allnames:
+  - "ytterbium silicide"
+  articles:
+  - ""
+  ordered: "14,70"
+- molecularformula: "3Al2O3·2SiO2"
+  allnames:
+  - "aluminum silicate"
+  - "diketosilane; keto-ketoalumanyloxy-alumane"
+  - "dioxosilane; oxo-oxoalumanyloxyalumane"
+  - "mullite"
+  articles:
+  - "Aluminium silicate"
+  - ""
+  - ""
+  - "Mullite"
+  ordered: "8,13,14"
+- molecularformula: "BaSiF6"
+  allnames:
+  - "barium hexafluorosilicate"
+  - "barium(+2) cation; hexafluorosilicon"
+  articles:
+  - ""
+  - ""
+  ordered: "9,14,56"
+- molecularformula: "BaSiO3"
+  allnames:
+  - "barium metasilicate"
+  - "barium(+2) cation; dioxido-oxosilane"
+  - "barium(+2) cation; keto-dioxido-silane"
+  - "barium silicate"
+  - "barium silicon oxide"
+  - "silicic acid, barium salt (1:1)"
+  articles:
+  - ""
+  - ""
+  - ""
+  - ""
+  - ""
+  - ""
+  ordered: "8,14,56"
+- molecularformula: "Be2O4Si"
+  allnames:
+  - "diberyllium monosilicate"
+  - "beryllium orthosilicate"
+  - "beryllium silicate"
+  - "beryllium silicic acid"
+  - "silicic acid, beryllium salt"
+  articles:
+  - ""
+  - "Phenakite"
+  - ""
+  - ""
+  - ""
+  ordered: "4,8,14"
+- molecularformula: "BrCl3Si"
+  allnames:
+  - "bromotrichlorosilane"
+  articles:
+  - ""
+  ordered: "14,17,35"
+- molecularformula: "Br2Cl2Si"
+  allnames:
+  - "dibromodichlorosilane"
+  articles:
+  - ""
+  ordered: "14,17,35"
+- molecularformula: "Br2H2Si"
+  allnames:
+  - "dibromosilane"
+  articles:
+  - ""
+  ordered: "1,14,35"
+- molecularformula: "Br3ClSi"
+  allnames:
+  - "tribromochlorosilane"
+  articles:
+  - ""
+  ordered: "14,17,35"
+- molecularformula: "Cl3CSiCl3"
+  allnames:
+  - "trichloro(trichloromethyl)silane"
+  - "trichloromethyltrichlorosilanebyweightintoluene"
+  articles:
+  - ""
+  - ""
+  ordered: "6,14,17"
+- molecularformula: "CH3SiH3"
+  allnames:
+  - "methylsilane"
+  - "methylsilicon"
+  articles:
+  - "Methylsilane"
+  - ""
+  ordered: "1,6,14"
+- molecularformula: "(CH4Si)n"
+  allnames:
+  - "poly(carbodihydridosilane)"
+  - "HPCS"
+  - "hydridopolycarbosilane"
+  - "methylenesilane"
+  - "methylidenesilane"
+  articles:
+  - ""
+  - "High Productivity Computing Systems"
+  - ""
+  - ""
+  - ""
+  ordered: "1,6,14"
+- molecularformula: "C2Cl8Si"
+  allnames:
+  - "dichlorobis(trichloromethyl)silane"
+  articles:
+  - ""
+  ordered: "6,14,17"
+- molecularformula: "(C2H6Si)n"
+  allnames:
+  - "polycarbomethylsilane"
+  - "methyl-methylene-silane"
+  - "methyl-methylidenesilane"
+  - "poly[(methylsilylene)methylene]polycarbosilane"
+  articles:
+  - ""
+  - ""
+  - ""
+  - ""
+  ordered: "1,6,14"
+- molecularformula: "(C2H5)2SiH2"
+  allnames:
+  - "diethylsilane"
+  - "diethylsilicon"
+  articles:
+  - ""
+  - ""
+  ordered: "1,6,14"
+- molecularformula: "CH3SiH2CH2CH2SiH2CH3"
+  allnames:
+  - "1,2-ethanediylbis(methylsilane)"
+  articles:
+  - ""
+  ordered: "1,6,14"
+- molecularformula: "CH3CH2SiH(CH3)2"
+  allnames:
+  - "dimethylethylsilane"
+  - "ethyldimethylsilane"
+  - "ethyl-dimethylsilicon"
+  articles:
+  - ""
+  - ""
+  - ""
+  ordered: "1,6,14"
+- molecularformula: "Si(CH3)4"
+  allnames:
+  - "tetramethylsilane"
+  articles:
+  - "Tetramethylsilane"
+  ordered: "1,6,14"
+- molecularformula: "(CH3)2SiHSiH(CH3)2"
+  allnames:
+  - "1,1,2,2-tetramethyldisilane"
+  - "dimethylsilyl-dimethylsilane"
+  articles:
+  - ""
+  - ""
+  ordered: "1,6,14"
+- molecularformula: "(CH3)3SiC≡CH"
+  allnames:
+  - "trimethylsilylacetylene"
+  - "ethynyltrimethylsilane"
+  articles:
+  - "Trimethylsilylacetylene"
+  - ""
+  ordered: "1,6,14"
+- molecularformula: "(CH3)3SiCHCH2"
+  allnames:
+  - "vinyltrimethylsilane"
+  - "ethenyltrimethylsilane"
+  - "(trimethylsilyl)ethylene"
+  - "trimethyl(vinyl)silane"
+  articles:
+  - ""
+  - ""
+  - ""
+  - ""
+  ordered: "1,6,14"
+- molecularformula: "(C2H5)2SiHCH3"
+  allnames:
+  - "diethylmethylsilane"
+  - "diethyl-methylsilicon"
+  articles:
+  - ""
+  - ""
+  ordered: "1,6,14"
+- molecularformula: "(CH3)2CHSiH(CH3)2"
+  allnames:
+  - "dimethylisopropylsilane"
+  - "dimethyl-propan-2-ylsilicon"
+  - "isopropyl-dimethyl-silicon"
+  articles:
+  - ""
+  - ""
+  - ""
+  ordered: "1,6,14"
+- molecularformula: "C5H14Si"
+  allnames:
+  - "ethyl-trimethyl-silane"
+  articles:
+  - ""
+  ordered: "1,6,14"
+- molecularformula: "(CH3)3SiSi(CH3)2H"
+  allnames:
+  - "pentamethyldisilane"
+  - "dimethylsilyl-trimethylsilane"
+  articles:
+  - ""
+  - ""
+  ordered: "1,6,14"
+- molecularformula: "C6H5SiH3"
+  allnames:
+  - "phenylsilane"
+  - "phenylsilicon"
+  articles:
+  - "Phenylsilane"
+  - ""
+  ordered: "1,6,14"
+- molecularformula: "CH3C≡CSi(CH3)3"
+  allnames:
+  - "1-(trimethylsilyl)-1-propyne"
+  - "1-(trimethylsilyl)prop-1-yne"
+  - "1-(trimethylsilyl)propyne"
+  - "trimethyl-1-propynylsilane"
+  - "trimethyl-prop-1-ynylsilane"
+  articles:
+  - ""
+  - ""
+  - ""
+  - ""
+  - ""
+  ordered: "1,6,14"
+- molecularformula: "(H2C=CH)2Si(CH3)2"
+  allnames:
+  - "divinyldimethylsilane"
+  - "di(ethenyl)-dimethylsilane"
+  - "dimethyldivinylsilane"
+  - "silane, diethenyldimethyl-"
+  articles:
+  - ""
+  - ""
+  - ""
+  - ""
+  ordered: "1,6,14"
+- molecularformula: "HC≡CCH2Si(CH3)3"
+  allnames:
+  - "trimethyl(propargyl)silane"
+  - "2-propynyl-trimethylsilane"
+  - "3-(trimethylsilyl)propyne"
+  - "trimethyl-prop-2-ynylsilane"
+  articles:
+  - ""
+  - ""
+  - ""
+  - ""
+  ordered: "1,6,14"
+- molecularformula: "H2C=CHCH2Si(CH3)3"
+  allnames:
+  - "allyltrimethylsilane"
+  - "3-(trimethylsilyl)-1-propene"
+  - "3-(trimethylsilyl)propene"
+  - "silane, trimethyl-2-propenyl-"
+  - "trimethylallylsilane"
+  - "trimethyl-prop-2-enylsilane"
+  articles:
+  - ""
+  - ""
+  - ""
+  - ""
+  - ""
+  - ""
+  ordered: "1,6,14"
+- molecularformula: "(CH3)3CSiH(CH3)2"
+  allnames:
+  - "tert-butyldimethylsilane"
+  - "tert-butyl-dimethylsilicon"
+  articles:
+  - ""
+  - ""
+  ordered: "1,6,14"
+counts:
+  "1": 948
+  "3": 9
+  "4": 3
+  "5": 10
+  "6": 913
+  "7": 174
+  "8": 533
+  "9": 93
+  "11": 15
+  "12": 12
+  "13": 9
+  "14": 1055
+  "15": 17
+  "16": 47
+  "17": 250
+  "19": 5
+  "20": 5
+  "21": 1
+  "22": 2
+  "23": 2
+  "24": 2
+  "25": 3
+  "26": 6
+  "27": 3
+  "29": 4
+  "30": 2
+  "32": 1
+  "34": 1
+  "35": 36
+  "38": 1
+  "39": 1
+  "40": 2
+  "41": 1
+  "42": 1
+  "48": 2
+  "50": 3
+  "53": 10
+  "56": 5
+  "57": 2
+  "58": 2
+  "59": 2
+  "60": 1
+  "62": 2
+  "63": 2
+  "64": 2
+  "65": 2
+  "66": 1
+  "67": 2
+  "68": 1
+  "69": 1
+  "70": 1
+  "72": 3
+  "73": 1
+  "74": 2
+  "75": 2
+  "78": 3
+  "80": 1
+  "82": 4
+  "90": 2
+  "92": 1
+totalresults: 1055
+formula: null

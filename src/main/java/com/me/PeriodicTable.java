@@ -7,7 +7,6 @@ import org.apache.log4j.Logger;
 import org.simpleyaml.configuration.file.YamlFile;
 
 import java.io.*;
-import java.nio.charset.StandardCharsets;
 import java.util.*;
 
 /**
@@ -22,6 +21,7 @@ public class PeriodicTable {
     public static final List<Atomic> atomicList = new ArrayList<>();
 
     public static void main(String[] args) throws IOException {
+        logger.debug("softwareAddress = " + softwareAddress);
         Timings_Object timings = new Timings_Object();
         timings.startTimings();
         new PeriodicTable().initAtomicMap();//初始化
@@ -48,8 +48,8 @@ public class PeriodicTable {
             bufferedWriter.write(line);
             bufferedWriter.newLine();
         }
-        bufferedWriter.flush();
 
+        bufferedWriter.flush();
         bufferedWriter.close();
         bufferedReader.close();
 
