@@ -25,10 +25,8 @@ public class URLTool {
             String json = getJsonFromFromUrl(url);
             String convert = jsonConvertToYaml(json);//转yaml
             return writeFileToTemp(fileName, convert);
-
         } catch (IOException e) {
-            logger.error("获取服务器资源错误(请检查网络连接)");
-            e.printStackTrace();
+            logger.error("获取服务器资源错误");
         }
         return null;
 

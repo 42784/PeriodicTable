@@ -64,7 +64,7 @@ public class PeriodicTableSystem {
             logger.info(String.format("联网获取化学式成功，耗时: %dms", timingsObject.getTime()));
             printChemicalFormula(file);
         } catch (Exception e) {
-            e.printStackTrace();
+            logger.warn("错误的原子符号");
         }
     }
 
@@ -75,13 +75,22 @@ public class PeriodicTableSystem {
         File file = URLTool.requestServer(//请求网络获取化学式
                 "https://ptable.com/JSON/compounds/formula=" + symbol, "ChemicalFormula.yaml");
         timingsObject.stopTimings();
-        logger.info(String.format("联网获取化学式成功，耗时: %dms", timingsObject.getTime()));
-        printChemicalFormula(file);
+        logger.info(String.format("联网获取化学式操作耗时: %dms", timingsObject.getTime()));
+        printChemicalFormula(file);//打印信息
+        if (file != null) {
+            file.deleteOnExit();//删除文件
+        }
 
     }
 
     public static void printChemicalFormula(File file) {
-        YamlFile yamlFile = new YamlTools(file).getYamlFile();
+        YamlFile yamlFile = null;
+        try {
+            yamlFile = new YamlTools(file).getYamlFile();
+        } catch (Exception e) {
+            logger.error("文件不存在");
+            return;
+        }
         List<Map<?, ?>> mapList = yamlFile.getMapList("matches");
         for (Map<?, ?> map : mapList) {
             Object molecularformula = map.get("molecularformula");//Str
