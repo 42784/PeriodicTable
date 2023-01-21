@@ -76,6 +76,7 @@ public class URLTool {
         }
         inputStream.close();
         bufferedReader.close();
+        logger.debug("get Json: "+stringBuilder.toString());
         return stringBuilder.toString();
 
     }

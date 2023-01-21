@@ -14,7 +14,27 @@ public class Atomic {
     private String melt;//熔点 K
     private String boil;//沸点 K
     private String phase;//常温的物态
+    private String electron;//电子排布式
     public static final Logger logger = Logger.getLogger(Atomic.class);
+
+    public Atomic(String name, int atomicNumber, String symbol, String weight, String melt, String boil, String phase, String electron) {
+        this.name = name;
+        this.atomicNumber = atomicNumber;
+        this.symbol = symbol;
+        this.weight = weight;
+        this.melt = melt;
+        this.boil = boil;
+        this.phase = phase;
+        this.electron = electron;
+    }
+
+    public String getElectron() {
+        return electron;
+    }
+
+    public void setElectron(String electron) {
+        this.electron = electron;
+    }
 
     public String getName() {
         return name;
@@ -72,16 +92,6 @@ public class Atomic {
         this.phase = phase;
     }
 
-    public Atomic(String name, int atomicNumber, String symbol, String weight, String melt, String boil, String phase) {
-        this.name = name;
-        this.atomicNumber = atomicNumber;
-        this.symbol = symbol;
-        this.weight = weight;
-        this.melt = melt;
-        this.boil = boil;
-        this.phase = phase;
-    }
-
     @Override
     public String toString() {
         return "Atomic{" +
@@ -92,6 +102,7 @@ public class Atomic {
                 ", melt='" + melt + '\'' +
                 ", boil='" + boil + '\'' +
                 ", phase='" + phase + '\'' +
+                ", electron='" + electron + '\'' +
                 '}';
     }
 
@@ -104,7 +115,8 @@ public class Atomic {
                         \t相对原子质量= %s
                         \t熔点= %s K
                         \t沸点= %s K
-                        \t物态= %s""",
-                atomic.name, atomic.atomicNumber, atomic.symbol, atomic.weight, atomic.melt, atomic.boil,atomic.phase));
+                        \t物态= %s
+                        \t电子排布式= %s""",
+                atomic.name, atomic.atomicNumber, atomic.symbol, atomic.weight, atomic.melt, atomic.boil, atomic.phase,atomic.electron));
     }
 }

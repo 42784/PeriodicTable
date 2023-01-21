@@ -41,7 +41,7 @@ public class PeriodicTable {
         InputStream resourceAsStream = this.getClass().getClassLoader().getResourceAsStream("本地原子数据.yaml");
         assert resourceAsStream != null;
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(resourceAsStream));
-        File tempFile = File.createTempFile("PeriodicTable\\PeriodicTableAtomicData", "yaml");
+        File tempFile = File.createTempFile("PeriodicTableAtomicData", ".yaml");
         BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(tempFile));
         String line;
         while ((line = bufferedReader.readLine()) != null) {
@@ -81,7 +81,10 @@ public class PeriodicTable {
                 temp = map.get("phase");
                 String phase = temp == null ? "N/A" : temp.toString();
 
-                Atomic atomic = new Atomic(name, atomicID, symbol, weight, melt, boil, phase);
+                temp = map.get("electron");
+                String electron = temp == null ? "N/A" : temp.toString();
+
+                Atomic atomic = new Atomic(name, atomicID, symbol, weight, melt, boil, phase, electron);
 
                 atomicHashMap_symbol.put(symbol, atomic);
                 atomicHashMap_atomicID.put(atomicID, atomic);
@@ -94,4 +97,5 @@ public class PeriodicTable {
 
 //        logger.debug(atomicHashMap_atomicID);
     }
+
 }

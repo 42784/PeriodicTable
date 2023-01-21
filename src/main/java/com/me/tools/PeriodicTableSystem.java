@@ -31,19 +31,21 @@ public class PeriodicTableSystem {
         logger.info("0.退出系统");
         logger.info("1.通过原子序数查询 该原子信息");
         logger.info("2.通过元素符号查询 该原子信息");
-        logger.info("3.打印所有原子的信息");
-        logger.info("4.打印元素周期表");
-        logger.info("5.通过原子序数查询 由该原子的组成的化学式");
-        logger.info("6.通过元素符号查询 由该原子的组成的化学式");
+        logger.info("3.通过原子序数查询 由该原子的组成的化学式");
+        logger.info("4.通过元素符号查询 由该原子的组成的化学式");
+        logger.info("5.打印所有原子的信息");
+        logger.info("6.打印元素周期表");
         Integer nextInt = Utilitys.userNextInt("你的选择");
         switch (nextInt) {
             case 0 -> System.exit(0);
             case 1 -> queryAtomicByID();
             case 2 -> queryAtomicBySymbol();
-            case 3 -> printAllAtomic();
-            case 4 -> printPeriodicTable();
-            case 5 -> getChemicalFormulaByID();
-            case 6 -> getChemicalFormulaBySymbol();
+
+            case 3 -> getChemicalFormulaByID();
+            case 4 -> getChemicalFormulaBySymbol();
+
+            case 5 -> printAllAtomic();
+            case 6 -> printPeriodicTable();
 
         }
         joinSystem();
@@ -59,7 +61,7 @@ public class PeriodicTableSystem {
             File file = URLTool.requestServer(//请求网络获取化学式
                     "https://ptable.com/JSON/compounds/formula=" + symbol, "ChemicalFormula.yaml");
             timingsObject.stopTimings();
-            logger.info(String.format("联网获取化学式成功，耗时: %dms",timingsObject.getTime()));
+            logger.info(String.format("联网获取化学式成功，耗时: %dms", timingsObject.getTime()));
             printChemicalFormula(file);
         } catch (Exception e) {
             e.printStackTrace();
@@ -73,7 +75,7 @@ public class PeriodicTableSystem {
         File file = URLTool.requestServer(//请求网络获取化学式
                 "https://ptable.com/JSON/compounds/formula=" + symbol, "ChemicalFormula.yaml");
         timingsObject.stopTimings();
-        logger.info(String.format("联网获取化学式成功，耗时: %dms",timingsObject.getTime()));
+        logger.info(String.format("联网获取化学式成功，耗时: %dms", timingsObject.getTime()));
         printChemicalFormula(file);
 
     }
